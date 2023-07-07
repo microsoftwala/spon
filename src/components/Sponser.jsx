@@ -1,0 +1,291 @@
+import React from 'react'
+import { Typography } from "@mui/material"
+import Box from '@mui/material/Box';
+import DownloadButton from './Download';
+
+
+function Sponser() {
+  return (
+    <Box>
+      <Box>
+        Header
+      </Box>
+
+      <Box>
+        <Typography sx={{ font:"enter",fontSize:"48px",fontWeight:"400",height:"100%",width:"90%",display:"flex",justifyContent:"flex-start",ml:"10%" }}>Our Achievements</Typography>
+
+        <Box sx={{ width:"87%",display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"space-around",mt:"30px",ml:"7%",mr:"6%" }}>
+
+          <Typography sx={{ pr:"5%",fontSize:"28px",fontWeight:"400",width:"100%",height:"100%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </Typography>
+
+         
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" height="350px" 
+          style={{  margin:"auto", width:"100%",borderRadius:"5px" }}></img>
+        </Box>
+
+        <Box sx={{ mt:"125px",width:"100%",height:"100%",backgroundColor: "#D9D9D9",paddingBottom:"100px"}}>
+          <Typography sx={{ font:"enter",fontSize:"48px",fontWeight:"400",height:"100%",width:"90%",ml:"10%",mt:"37px",display:"flex",justifyContent:"flex-start" }}>Why Sponser Us
+          </Typography>
+
+          <Box sx={{ width:"80%",ml:"10%",mt:"50px" }}>
+          <Box sx={{ display:"flex" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+          <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Typography></Box>
+          </Box>
+
+          <Box sx={{ width:"80%",ml:"10%",mt:"81px" }}>
+          <Box sx={{ display:"flex" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+          <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Typography></Box>
+          </Box>
+
+          <Box sx={{ width:"80%",ml:"10%",mt:"81px" }}>
+          <Box sx={{ display:"flex" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+          <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Typography></Box>
+          </Box>
+
+          <Box sx={{ width:"80%",ml:"10%",mt:"81px" }}>
+          <Box sx={{ display:"flex" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+          <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Typography></Box>
+          </Box>
+
+        </Box>
+
+
+        <Box sx={{ mt:"181px",width:"80%",ml:"10%" }}>
+        <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"space-evenly" }}>
+          <Box sx={{ display:"block" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+            <DownloadButton url="https://example.com/myfile.pdf" filename="myfile.pdf" name="Sponsership Brochure Download "/>
+           </Box>
+
+           <Box sx={{ display:"block" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+             <DownloadButton url="https://example.com/myfile.pdf" filename="myfile.pdf" name="Collaborate Download" />
+           </Box>
+
+           <Box sx={{ display:"block" }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+             style={{ width:"123px",borderRadius:"50%",height:"123px"  }}></img>
+             <DownloadButton url="https://example.com/myfile.pdf" filename="myfile.pdf" name="Crowd Funding Download"/> 
+           </Box>
+          </Box>
+        </Box>
+
+        <Box sx={{ mt:"235px",width:"90%",ml:"5%" }}>
+
+          <Typography sx={{ font:"enter",fontSize:"48px",fontWeight:"400",height:"59px",width:"90%",display:"flex",justifyContent:"flex-start",ml:"10%"}}> Our Past Sponsers</Typography>
+
+         
+        <Box sx={{ mt:"71px",width:"100%" }}>
+          <Box sx={{ display:{ xs:"block",sm:"block",md:"flex" },justifyContent:"center" }}>
+
+          <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center" }}>
+          <Box sx={{ display:"block",ml:"10%" }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"10%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+
+           <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center",ml:"7%" }}>
+          <Box sx={{ display:"block",mr:{xs:"0%",sm:"10%"} }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"1%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+          </Box>
+          </Box>
+
+
+
+
+          <Box sx={{ mt:"71px",width:"100%" }}>
+          <Box sx={{ display:{ xs:"block",sm:"block",md:"flex" },justifyContent:"center" }}>
+
+          <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center" }}>
+          <Box sx={{ display:"block",ml:"10%" }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"10%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+
+           <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center",ml:"7%" }}>
+          <Box sx={{ display:"block",mr:{xs:"0%",sm:"10%"} }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"1%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+          </Box>
+          </Box>
+
+
+
+
+          <Box sx={{ mt:"71px",width:"100%" }}>
+          <Box sx={{ display:{ xs:"block",sm:"block",md:"flex" },justifyContent:"center" }}>
+
+          <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center" }}>
+          <Box sx={{ display:"block",ml:"10%" }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"10%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+
+           <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center",ml:"7%" }}>
+          <Box sx={{ display:"block",mr:{xs:"0%",sm:"10%"} }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"1%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+          </Box>
+          </Box>
+
+
+
+
+          <Box sx={{ mt:"71px",width:"100%" }}>
+          <Box sx={{ display:{ xs:"block",sm:"block",md:"flex" },justifyContent:"center" }}>
+
+          <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center" }}>
+          <Box sx={{ display:"block",ml:"10%" }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"10%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+
+           <Box sx={{ display:{ xs:"block",sm:"flex",md:"flex" },justifyContent:"center",ml:"7%" }}>
+          <Box sx={{ display:"block",mr:{xs:"0%",sm:"10%"} }}>
+          <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+          style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+            <Typography sx={{ fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+
+           <Box sx={{ display:"block",ml:"1%"  }}><img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+              style={{ width:"90px",borderRadius:"50%",height:"90px"  }}></img>
+             <Typography sx={{fontSize:"28px",ml:"26px",fontWeight:"400",mt:"2%" }} >Sponser_name</Typography>
+           </Box>
+           </Box>
+          </Box>
+          </Box>
+
+
+      </Box>
+
+
+      <Box sx={{ mt:"125px",mb:"125px" }}>
+        <Typography sx={{ font:"enter",fontSize:{xs:"35px",sm:"35px",md:"48px"},fontWeight:"400",height:"59px",width:"90%",display:"flex",justifyContent:"flex-start",ml:"10%" }}>Want to Support Us</Typography>
+
+        <Typography sx={{ font:"enter",fontSize:"28px",fontWeight:"400",height:"100%",width:"90%",display:"flex",justifyContent:"flex-start",ml:"7%",mt:{xs:"8%",sm:"3%"},mb:"30px" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Typography>
+
+
+        <Box sx={{ display:"flex",justifyContent:"space-evenly" }}>
+          <Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Contact1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link2</Typography>
+            </Box>
+          </Box>
+
+          <Box>
+          <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Contact1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link2</Typography>
+            </Box>
+          </Box>
+
+          <Box>
+          <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Contact1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link1</Typography>
+            </Box>
+            <Box sx={{ display:"flex",mb:"10px" }}>
+            <img alt="png" src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" 
+            style={{ width:"38px",borderRadius:"50%",height:"38px"  }}></img>
+            <Typography sx={{ fontSize:"15px",ml:"10px",fontWeight:"400",mt:"2%" }} >Link2</Typography>
+            </Box>
+            </Box>
+        </Box>
+
+      </Box>
+    </Box>
+
+    <Box>
+      footer
+    </Box>
+    </Box>
+  )
+}
+
+export default Sponser
