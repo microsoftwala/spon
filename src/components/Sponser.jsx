@@ -16,10 +16,10 @@ function Sponser() {
             fontSize: "48px",
             fontWeight: "400",
             height: "100%",
-            width: "90%",
+            width: {xs:"100%",sm:"100%",md:"90%"},
             display: "flex",
-            justifyContent: "flex-start",
-            ml: "10%",
+            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+            ml: {xs:"0px",sm:"0px",md:"10%"},
           }}
         >
           Our Achievements
@@ -73,11 +73,10 @@ function Sponser() {
               fontSize: "48px",
               fontWeight: "400",
               height: "100%",
-              width: "90%",
-              ml: "10%",
-              mt: "37px",
+              width: {xs:"100%",sm:"100%",md:"90%"},
               display: "flex",
-              justifyContent: "flex-start",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
             }}
           >
             Why Sponser Us
@@ -130,7 +129,7 @@ function Sponser() {
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+                style={{ width: "123px", borderRadius: "100%", height: "123px" }}
               ></img>
               <Typography
                 sx={{
@@ -222,11 +221,11 @@ function Sponser() {
               font: "enter",
               fontSize: "48px",
               fontWeight: "400",
-              height: "59px",
-              width: "90%",
+              height: "100%",
+              width: {xs:"100%",sm:"100%",md:"90%"},
               display: "flex",
-              justifyContent: "flex-start",
-              ml: "10%",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
             }}
           >
             {" "}
@@ -246,7 +245,7 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -268,7 +267,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -295,10 +294,10 @@ function Sponser() {
                 sx={{
                   display: { xs: "block", sm: "flex", md: "flex" },
                   justifyContent: "center",
-                  ml: "7%",
+                  ml: {xs:"2%",sm:"8%",md:"8%"},
                 }}
               >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "10%" } }}>
+                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -320,7 +319,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "1%" }}>
+                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -358,7 +357,7 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -380,7 +379,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -407,10 +406,10 @@ function Sponser() {
                 sx={{
                   display: { xs: "block", sm: "flex", md: "flex" },
                   justifyContent: "center",
-                  ml: "7%",
+                  ml: {xs:"2%",sm:"8%",md:"8%"},
                 }}
               >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "10%" } }}>
+                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -432,7 +431,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "1%" }}>
+                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -456,6 +455,7 @@ function Sponser() {
               </Box>
             </Box>
           </Box>
+
 
           <Box sx={{ mt: "71px", width: "100%" }}>
             <Box
@@ -470,7 +470,7 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -492,7 +492,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -519,10 +519,10 @@ function Sponser() {
                 sx={{
                   display: { xs: "block", sm: "flex", md: "flex" },
                   justifyContent: "center",
-                  ml: "7%",
+                  ml: {xs:"2%",sm:"8%",md:"8%"},
                 }}
               >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "10%" } }}>
+                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -544,7 +544,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "1%" }}>
+                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -568,6 +568,7 @@ function Sponser() {
               </Box>
             </Box>
           </Box>
+
 
           <Box sx={{ mt: "71px", width: "100%" }}>
             <Box
@@ -582,7 +583,7 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -604,7 +605,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "10%" }}>
+                <Box sx={{ display: "block", ml: "2%" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -631,10 +632,10 @@ function Sponser() {
                 sx={{
                   display: { xs: "block", sm: "flex", md: "flex" },
                   justifyContent: "center",
-                  ml: "7%",
+                  ml: {xs:"2%",sm:"8%",md:"8%"},
                 }}
               >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "10%" } }}>
+                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -656,7 +657,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "1%" }}>
+                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -680,6 +681,7 @@ function Sponser() {
               </Box>
             </Box>
           </Box>
+
         </Box>
 
         <Box sx={{ mt: "125px", mb: "125px" }}>
@@ -688,11 +690,11 @@ function Sponser() {
               font: "enter",
               fontSize: { xs: "35px", sm: "35px", md: "48px" },
               fontWeight: "400",
-              height: "59px",
-              width: "90%",
+              height: "100%",
+              width: {xs:"100%",sm:"100%",md:"90%"},
               display: "flex",
-              justifyContent: "flex-start",
-              ml: "10%",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
             }}
           >
             Want to Support Us
@@ -892,7 +894,7 @@ function Sponser() {
                   style={{ width: "38px", borderRadius: "50%", height: "38px" }}
                 ></img>
                 <Link
-                  to="/about"
+                  to="/"
                   style={{
                     fontSize: "16.5px",
                     ml: "10px",
