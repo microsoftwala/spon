@@ -894,7 +894,7 @@ function Sponser() {
                   style={{ width: "38px", borderRadius: "50%", height: "38px" }}
                 ></img>
                 <Link
-                  to="/"
+                  to="/about"
                   style={{
                     fontSize: "16.5px",
                     ml: "10px",
