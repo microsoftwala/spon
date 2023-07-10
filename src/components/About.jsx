@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import  Mp from "../assets/1.mp4"
 
 function About() {
   return (
@@ -37,7 +38,7 @@ function About() {
             controls
             style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
           >
-            <source src="../assets/1.mp4" type="video/mp4" />
+            <source src= {Mp} type="video/mp4" />
           </video>
 
           <Typography
