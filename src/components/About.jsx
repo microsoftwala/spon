@@ -1,9 +1,20 @@
-import React from "react";
+import React,{ useState } from "react";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import  Mp from "../assets/1.mp4"
 
 function About() {
+  const [isbar,setIsbar]= useState(true)
+  function greet() {
+  if(window.innerWidth<900){
+    setIsbar(false)
+  }else{
+    setIsbar(true)
+  }
+  setTimeout(greet, 100);
+}
+
+setTimeout(greet, 100);
   return (
     <Box>
       <Box>Header</Box>
@@ -36,7 +47,7 @@ function About() {
         >
           <video
             controls
-            style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
+            style={{ margin: "auto", width: isbar?"50%":"100%", borderRadius: "5px" }}
           >
             <source src= {Mp} type="video/mp4" />
           </video>
