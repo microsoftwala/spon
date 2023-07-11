@@ -1,11 +1,17 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import  Mp from "../assets/1.mp4"
+import Header from "./Header"
+import Footer from "./Footer"
+
 
 function About() {
-  const [isbar,setIsbar]= useState(true)
-  function greet() {
+
+  const[isbar,setIsbar] = useState(true)
+
+
+function greet() {
   if(window.innerWidth<900){
     setIsbar(false)
   }else{
@@ -15,21 +21,24 @@ function About() {
 }
 
 setTimeout(greet, 100);
+
   return (
     <Box>
-      <Box>Header</Box>
+      <Box><Header />
+      </Box>
 
       <Box>
         <Typography
           sx={{
             font: "enter",
-            fontSize: "48px",
+            fontSize: "40px",
             fontWeight: "400",
             height: "100%",
             width: {xs:"100%",sm:"100%",md:"90%"},
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
+            mt:"30px"
           }}
         >
           About Page
@@ -49,16 +58,17 @@ setTimeout(greet, 100);
             controls
             style={{ margin: "auto", width: isbar?"50%":"100%", borderRadius: "5px" }}
           >
-            <source src= {Mp} type="video/mp4" />
+            <source src={Mp} type="video/mp4" />
           </video>
 
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
+              mt:"10px"
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -99,16 +109,18 @@ setTimeout(greet, 100);
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
             height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
           ></img>
+
 
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
+              mt:"10px"
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -131,10 +143,11 @@ setTimeout(greet, 100);
           <Typography
             sx={{
               pr: "5%",
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
+              mb:"10px"
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -147,7 +160,7 @@ setTimeout(greet, 100);
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
             height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
           ></img>
         </Box>
 
@@ -181,13 +194,13 @@ setTimeout(greet, 100);
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
             height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
           ></img>
 
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
@@ -260,7 +273,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -288,7 +301,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
@@ -308,7 +321,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -337,7 +350,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
@@ -357,7 +370,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -385,7 +398,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
@@ -405,7 +418,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1488928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -413,7 +426,8 @@ setTimeout(greet, 100);
 
         </Box>
 
-        <Box>footer</Box>
+        <Box>
+        <Footer /></Box>
       </Box>
     </Box>
   );

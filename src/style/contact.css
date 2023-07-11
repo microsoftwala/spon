@@ -1,0 +1,100 @@
+.centered-text {
+    text-align: center;
+    height: 40%;
+  }
+  
+  .contact-section {
+    padding-left: 5rem;
+  }
+  
+  .formss {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .formss form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .formss label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formss input,
+  .formss textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid;
+    font-size: large;
+  }
+  
+  .formss button {
+    padding: 10px 20px;
+    width: 110%;
+    border: 2px solid;
+    font-size: large;
+  }
+  
+  .importantcontacts {
+    padding-left: 5rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-right: 5%;
+  }
+  
+  .location {
+    display: "flex";
+    justify-content: center;
+    margin: "auto";
+  }
+  
+  
+  .downcontent {
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 40vh;
+  }
+  
+  .paragraph {
+    text-align: center;
+  }
+  
+  .label {
+    margin-left: 0.5rem;
+    padding-right: 3rem;
+    font-size: large;
+    width: 60px;
+  }
+  
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-section,
+    .importantcontacts,
+    .location,
+    .gallery {
+      padding-left: 10px;
+    }
+  
+    .formss {
+      padding: 0 10px;
+    }
+  
+    .gallery {
+      width: 100%;
+      height: auto;
+    }
+  
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  }

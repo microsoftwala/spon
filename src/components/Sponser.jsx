@@ -3,17 +3,22 @@ import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import DownloadButton from "./Download";
 import { Link } from "react-router-dom";
+import Header from "./Header"
+import Footer from "./Footer"
+
 
 function Sponser() {
   return (
     <Box>
-      <Box>Header</Box>
+      <Box><Header />
+      </Box>
 
       <Box>
         <Typography
           sx={{
+            mt:"30px",
             font: "enter",
-            fontSize: "48px",
+            fontSize: "40px",
             fontWeight: "400",
             height: "100%",
             width: {xs:"100%",sm:"100%",md:"90%"},
@@ -38,7 +43,7 @@ function Sponser() {
           <Typography
             sx={{
               pr: "5%",
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
@@ -53,8 +58,8 @@ function Sponser() {
           <img
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            height="350px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px" }}
+            height="300px"
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"350px" }}
           ></img>
         </Box>
 
@@ -70,7 +75,7 @@ function Sponser() {
           <Typography
             sx={{
               font: "enter",
-              fontSize: "48px",
+              fontSize: "40px",
               fontWeight: "400",
               height: "100%",
               width: {xs:"100%",sm:"100%",md:"90%"},
@@ -91,7 +96,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "24px",
+                  fontSize: "22px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -112,7 +117,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "24px",
+                  fontSize: "22px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -133,7 +138,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "24px",
+                  fontSize: "22px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -154,7 +159,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "24px",
+                  fontSize: "22px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -167,7 +172,7 @@ function Sponser() {
           </Box>
         </Box>
 
-        <Box sx={{ mt: "181px", width: "80%", ml: "10%" }}>
+        <Box sx={{ mt: "75px", width: "80%", ml: "10%" }}>
           <Box
             sx={{
               display: { xs: "block", sm: "flex", md: "flex" },
@@ -175,11 +180,13 @@ function Sponser() {
             }}
           >
             <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "123px", borderRadius: "50%", height: "123px" }}
               ></img>
+              </Box>
               <DownloadButton
                 url="https://example.com/myfile.pdf"
                 filename="myfile.pdf"
@@ -188,11 +195,12 @@ function Sponser() {
             </Box>
 
             <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "123px", borderRadius: "50%", height: "123px" }}
-              ></img>
+              ></img></Box>
               <DownloadButton
                 url="https://example.com/myfile.pdf"
                 filename="myfile.pdf"
@@ -201,11 +209,13 @@ function Sponser() {
             </Box>
 
             <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "123px", borderRadius: "50%", height: "123px" }}
               ></img>
+              </Box>
               <DownloadButton
                 url="https://example.com/myfile.pdf"
                 filename="myfile.pdf"
@@ -215,11 +225,11 @@ function Sponser() {
           </Box>
         </Box>
 
-        <Box sx={{ mt: "235px", width: "90%", ml: "5%" }}>
+        <Box sx={{ mt: "100px", width: "90%", ml: "5%" }}>
           <Typography
             sx={{
               font: "enter",
-              fontSize: "48px",
+              fontSize: "40px",
               fontWeight: "400",
               height: "100%",
               width: {xs:"100%",sm:"100%",md:"90%"},
@@ -246,6 +256,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -254,10 +265,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -268,6 +279,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -276,10 +288,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -298,6 +310,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -306,10 +319,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -320,6 +333,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -328,10 +342,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -358,6 +372,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -366,10 +381,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -380,6 +395,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -388,10 +404,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -410,6 +426,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -418,10 +435,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -432,6 +449,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -440,123 +458,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-              </Box>
-            </Box>
-          </Box>
-
-
-          <Box sx={{ mt: "71px", width: "100%" }}>
-            <Box
-              sx={{
-                display: { xs: "block", sm: "block", md: "flex" },
-                justifyContent: "center",
-              }}
-            >
-              <Box
-                sx={{
-                  display: { xs: "block", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                }}
-              >
-                <Box sx={{ display: "block", ml: "2%" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img>
-                  <Typography
-                    sx={{
-                      fontSize: "24px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-
-                <Box sx={{ display: "block", ml: "2%" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img>
-                  <Typography
-                    sx={{
-                      fontSize: "24px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-              </Box>
-
-              <Box
-                sx={{
-                  display: { xs: "block", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                  ml: {xs:"2%",sm:"8%",md:"8%"},
-                }}
-              >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img>
-                  <Typography
-                    sx={{
-                      fontSize: "24px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-
-                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img>
-                  <Typography
-                    sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -584,6 +489,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -592,10 +498,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -606,6 +512,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -614,10 +521,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -636,6 +543,7 @@ function Sponser() {
                 }}
               >
                 <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -644,10 +552,10 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -658,6 +566,7 @@ function Sponser() {
                 </Box>
 
                 <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
                     src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -666,10 +575,126 @@ function Sponser() {
                       borderRadius: "50%",
                       height: "90px",
                     }}
-                  ></img>
+                  ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "24px",
+                      fontSize: "20px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                    }}
+                  >
+                    Sponser_name
+                  </Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+
+
+          <Box sx={{ mt: "71px", width: "100%" }}>
+            <Box
+              sx={{
+                display: { xs: "block", sm: "block", md: "flex" },
+                justifyContent: "center",
+              }}
+            >
+              <Box
+                sx={{
+                  display: { xs: "block", sm: "flex", md: "flex" },
+                  justifyContent: "center",
+                }}
+              >
+                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    style={{
+                      width: "90px",
+                      borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "20px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                    }}
+                  >
+                    Sponser_name
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    style={{
+                      width: "90px",
+                      borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "20px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                    }}
+                  >
+                    Sponser_name
+                  </Typography>
+                </Box>
+              </Box>
+
+              <Box
+                sx={{
+                  display: { xs: "block", sm: "flex", md: "flex" },
+                  justifyContent: "center",
+                  ml: {xs:"2%",sm:"8%",md:"8%"},
+                }}
+              >
+                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    style={{
+                      width: "90px",
+                      borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "20px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                    }}
+                  >
+                    Sponser_name
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    style={{
+                      width: "90px",
+                      borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>     <Typography
+                    sx={{
+                      fontSize: "20px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -688,7 +713,7 @@ function Sponser() {
           <Typography
             sx={{
               font: "enter",
-              fontSize: { xs: "35px", sm: "35px", md: "48px" },
+              fontSize: { xs: "35px", sm: "35px", md: "40px" },
               fontWeight: "400",
               height: "100%",
               width: {xs:"100%",sm:"100%",md:"90%"},
@@ -703,7 +728,7 @@ function Sponser() {
           <Typography
             sx={{
               font: "enter",
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
               height: "100%",
               width: "90%",
@@ -894,7 +919,7 @@ function Sponser() {
                   style={{ width: "38px", borderRadius: "50%", height: "38px" }}
                 ></img>
                 <Link
-                  to="/about"
+                  to="/"
                   style={{
                     fontSize: "16.5px",
                     ml: "10px",
@@ -914,7 +939,8 @@ function Sponser() {
         </Box>
       </Box>
 
-      <Box>footer</Box>
+      <Box>
+      <Footer /></Box>
     </Box>
   );
 }
