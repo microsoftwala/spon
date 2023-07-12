@@ -64,7 +64,7 @@ setTimeout(greet, 100);
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
@@ -116,7 +116,7 @@ setTimeout(greet, 100);
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
@@ -143,11 +143,12 @@ setTimeout(greet, 100);
           <Typography
             sx={{
               pr: "5%",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
-              mb:"10px"
+              mb:"10px",
+              mt:"15px"
             }}
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -200,7 +201,7 @@ setTimeout(greet, 100);
           <Typography
             sx={{
               pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "400",
               width: "100%",
               height: "100%",
@@ -230,7 +231,7 @@ setTimeout(greet, 100);
         </Typography>
 
    
-        <Box sx={{ mt: "71px", width: "100%",mb:"125px" }}>
+        <Box sx={{ mt: "50px", width: "100%",mb:"125px" }}>
           <Box
             sx={{
               display: { xs: "block", sm: "block", md: "flex" },
@@ -240,7 +241,7 @@ setTimeout(greet, 100);
           >
            <Box
                   sx={{
-                    display: { xs: "block", sm: "flex", md: "flex" },
+                    display: { xs: "flex", sm: "flex", md: "flex" },
                     justifyContent: {xs:"center",sm:"center",md:"flex-end"},
                     width:"100%"
                   }}
@@ -260,8 +261,8 @@ setTimeout(greet, 100);
 
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-start"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {xs:"center",sm:"center",md:"flex-start"},
                 width:{xs:"100%",sm:"100%",md:"100%"}
               }}
             >
@@ -273,7 +274,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -288,8 +289,8 @@ setTimeout(greet, 100);
           >
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-end"},
+                display: { xs: "center", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-end",xs:"center"},
                 width:"100%"
               }}
             >
@@ -301,15 +302,15 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
 
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-start"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-start",xs:"center"},
                 width:{xs:"100%",sm:"100%",md:"100%"}
               }}
             >
@@ -321,7 +322,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -337,8 +338,8 @@ setTimeout(greet, 100);
           >
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-end"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-end",xs:"center"},
                 width:"100%"
               }}
             >
@@ -350,15 +351,15 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
 
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-start"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-start",xs:"center"},
                 width:{xs:"100%",sm:"100%",md:"100%"}
               }}
             >
@@ -370,7 +371,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -385,8 +386,8 @@ setTimeout(greet, 100);
           >
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-end"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-end",xs:"center"},
                 width:"100%"
               }}
             >
@@ -398,15 +399,15 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width: "37%", height:"140px" }}
               ></img>
             </Box>
 
             <Box
               sx={{
-                display: { xs: "block", sm: "flex", md: "flex" },
-                justifyContent: {sm:"center",md:"flex-start"},
+                display: { xs: "flex", sm: "flex", md: "flex" },
+                justifyContent: {sm:"center",md:"flex-start",xs:"center"},
                 width:{xs:"100%",sm:"100%",md:"100%"}
               }}
             >
@@ -418,7 +419,7 @@ setTimeout(greet, 100);
 
               <img
                 alt="png"
-                src="https://images.unsplash.com/photo-1408928741225-2aaf732c96cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
