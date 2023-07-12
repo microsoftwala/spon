@@ -58,8 +58,7 @@ function Sponser() {
           <img
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            height="300px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"350px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"300px" }}
           ></img>
         </Box>
 
@@ -268,10 +267,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -291,7 +291,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -322,10 +322,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -345,7 +346,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -359,7 +360,7 @@ function Sponser() {
           </Box>
 
           <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-            <Box
+          <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -384,10 +385,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -407,7 +409,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -438,10 +440,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -461,7 +464,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -477,7 +480,7 @@ function Sponser() {
 
 
           <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-            <Box
+          <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -502,10 +505,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -525,7 +529,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -556,10 +560,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -579,7 +584,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -594,7 +599,7 @@ function Sponser() {
 
 
           <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-            <Box
+          <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -619,10 +624,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -642,7 +648,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -673,10 +679,11 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      mr:"15px"
                     }}
                   >
                     Sponser_name
@@ -696,7 +703,7 @@ function Sponser() {
                   ></img></Box>
                   <Typography
                     sx={{
-                      fontSize: "20px",
+                      fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
@@ -707,7 +714,7 @@ function Sponser() {
                 </Box>
               </Box>
             </Box>
-          </Box>
+            </Box>
 
 
         </Box>

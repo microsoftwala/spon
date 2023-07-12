@@ -108,8 +108,8 @@ setTimeout(greet, 100);
           <img
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
+            height="330px"
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"300px" }}
           ></img>
 
 
@@ -160,8 +160,7 @@ setTimeout(greet, 100);
           <img
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"300px" }}
           ></img>
         </Box>
 
@@ -194,8 +193,7 @@ setTimeout(greet, 100);
           <img
             alt="png"
             src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            height="370px"
-            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"370px" }}
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"300px" }}
           ></img>
 
           <Typography
