@@ -3,6 +3,7 @@ import Swiper from "./Swiper"
 import Footer from "./Footer"
 import Components from "./Components"
 import Mp from "../assets/1.mp4"
+import { Typography } from "@mui/material"
 
 export default function HomePage(){
 
@@ -10,7 +11,15 @@ export default function HomePage(){
         <Header/>
       <Swiper/>
       <div className='lg:px-[7.5rem] lg:py-[9rem] md:px-[5rem] md:py-[6rem] py-[4rem] px-[2rem]' style={{ paddingTop:"30px"}}>
-        <div className='md:text-[3.75rem] text-[3.5rem]  text-left'>Home</div>
+        <Typography sx={{  
+            font: "enter",
+            fontSize: "40px",
+            fontWeight: "400",
+            height: "100%",
+            width: {xs:"100%",sm:"100%",md:"90%"},
+            display: "flex",
+            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+            ml: {xs:"0px",sm:"0px",md:"10%"} }}>Home</Typography>
         <div className='grid md:grid-cols-2 lg:gap-x-[6.5rem] md:gap-x-[3rem] mt-8'>
           
           <video
