@@ -33,7 +33,7 @@ function Sponser() {
         <Box
           sx={{
             width: "87%",
-            display: { xs: "block", sm: "flex", md: "flex" },
+            display: { xs: "block", sm: "block", md: "flex" },
             justifyContent: "space-around",
             mt: "30px",
             ml: "7%",
@@ -43,16 +43,13 @@ function Sponser() {
           <Typography
             sx={{
               pr: "5%",
-              fontSize: "20px",
+              fontSize: "16px",
               fontWeight: "400",
               width: "100%",
-              height: "100%",
+              height: "100%",mb:"5%"
             }}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            We achieved an All India Rank of 43 among 116 teams that participated in the SAEINDIA mBaja 2023 and secured 8th position among the Tamil Nadu Colleges that participated. We are placed 3rd among the Centrally Funded Technical Institutes (CFTIs).We hope that our achievements in this competition will inspire other students to participate in such competitions and strive towards excellence.
           </Typography>
 
           <img
@@ -95,7 +92,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "20px",
+                  fontSize: "17px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -116,7 +113,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "20px",
+                  fontSize: "17px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -137,7 +134,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "20px",
+                  fontSize: "17px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",
@@ -158,7 +155,7 @@ function Sponser() {
               ></img>
               <Typography
                 sx={{
-                  fontSize: "20px",
+                  fontSize: "17px",
                   ml: "26px",
                   fontWeight: "400",
                   mt: "2%",

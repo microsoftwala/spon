@@ -34,7 +34,7 @@ export default function Swiper() {
                 <div className='absolute bottom-0 mx-[50%] w-[20rem] translate-x-[calc(50%-20rem)] text-center mb-[6rem] mix-blend-darken'>
                       <h4 className='md:text-lg text-sm'>WELCOME TO RACING PAGE OF IIITDM KANCHEEPURAM</h4>
                       <h1 className='md:text-[3rem] text-[2rem]'>Rebel Racers</h1>
-                      <p>Tagline</p>
+                      <p>Hit the pedal, be the Rebel!</p>
                 </div>
         </swiper-slide>
         <swiper-slide style={{position:"relative"}}>Slide 2</swiper-slide>

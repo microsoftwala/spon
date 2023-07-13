@@ -31,8 +31,9 @@ export default function HomePage(){
           </video>
           
           <div className='md:h-[18rem]  md:flex md:align-middle md:justify-center md:mt-0 mt-6'>
-            <div className='inline-block self-center text-left' style={{ fontSize:"22px"}}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <div className='inline-block self-center text-left' style={{ fontSize:"20px"}}>
+            The IIITDM Kancheepuram SAE m-Baja team also known as Rebel Racers, is a student organization of 30 interdisciplinary engineers that designs, builds, and competes with a custom off-road race car. Our team consists of departments like Roll Cage, Suspension, Steering, Brakes, Electronics Transmission & Powertrain.
+            Every sub-system has dedicated members working on designing, manufacturing and marketing. We have been mentored by two expert faculties, Dr. Shubhankar Chakraborty and Dr. Kashfull Orra.
             </div>
           </div>
         </div>
@@ -40,7 +41,7 @@ export default function HomePage(){
       <div className='bg-[#D9D9D9] lg:px-32 md:px-20 lg:py-20 py-10 flex justify-center  align-middle'>
           <div className='bg-transparent flex flex-col'>
             <div className='rounded-[100%] md:w-[7.6875rem] md:h-[7.6875rem] w-[4rem] h-[4rem] bg-white align-middle inline-block self-center'></div>
-            <span className='block md:text-xl text-sm mt-4 text-center md:w-[7.6875rem] w-[4rem]'>Years Of Experience</span>
+            <span className='block md:text-xl text-sm mt-4 text-center md:w-[7.6875rem] w-[4rem]'>Years Of Experience:2</span>
           </div>
           <div className='bg-transparent flex flex-col lg:ml-28 md:ml-14 ml-6'>
             <div className='rounded-[100%] md:w-[7.6875rem] md:h-[7.6875rem] w-[4rem] h-[4rem] bg-white align-middle inline-block self-center'></div>
