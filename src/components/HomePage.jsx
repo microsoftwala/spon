@@ -31,7 +31,7 @@ export default function HomePage(){
           </video>
           
           <div className='md:h-[18rem]  md:flex md:align-middle md:justify-center md:mt-0 mt-6'>
-            <div className='inline-block self-center text-left' style={{ fontSize:"20px"}}>
+            <div className='inline-block self-center text-left' style={{ fontSize:"16px"}}>
             The IIITDM Kancheepuram SAE m-Baja team also known as Rebel Racers, is a student organization of 30 interdisciplinary engineers that designs, builds, and competes with a custom off-road race car. Our team consists of departments like Roll Cage, Suspension, Steering, Brakes, Electronics Transmission & Powertrain.
             Every sub-system has dedicated members working on designing, manufacturing and marketing. We have been mentored by two expert faculties, Dr. Shubhankar Chakraborty and Dr. Kashfull Orra.
             </div>
