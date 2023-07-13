@@ -43,7 +43,7 @@ export default function Components(){
                         <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===5 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(5)}}>Roll Cage</div>
                     </div>
                     <div className="col-span-2 grid row-span-1">
-                        <p className="md:mx-16 mx-8  md:text-[1rem]  text-[0.60rem]  text-left">
+                        <p className="md:mx-16 mx-8  md:text-[1rem]  text-[0.85rem]  text-left">
                         {componentData[index]}
                         </p>
                     </div>
