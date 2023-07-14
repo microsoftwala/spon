@@ -25,7 +25,7 @@ const teamMembers = [
   },
   { 
     name: 'Piyush Kumar Sinha',
-    role: 'HQ',
+    role: 'Team Captain',
     team: 'HQ',
     image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
     linkedin: 'www.google.com',
@@ -33,7 +33,7 @@ const teamMembers = [
   },
   { 
     name: 'Akhilesh M',
-    role: 'HQ',
+    role: 'Team Vice Captain',
     team: 'HQ',
     image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
     linkedin: 'www.google.com',
@@ -41,7 +41,7 @@ const teamMembers = [
   },
   { 
     name: 'Ravish Desh Anand',
-    role: 'HQ',
+    role: 'Team Manager',
     team: 'HQ',
     image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
     linkedin: 'www.google.com',
@@ -49,7 +49,7 @@ const teamMembers = [
   },
   { 
     name: 'Jana Balaji',
-    role: 'HQ',
+    role: 'Team Joint Manager',
     team: 'HQ',
     image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
     linkedin: 'www.google.com',
