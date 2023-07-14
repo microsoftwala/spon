@@ -1,0 +1,135 @@
+
+  .team-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2%;
+    }
+  
+    h1 {
+      position: relative;
+      font-size: 300%;
+      margin-bottom: 0;
+    }
+    
+    .member-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  
+    .team-grid {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 3%;
+      padding-bottom: 1%;
+    }
+  
+    .role {
+      margin-top: 0;
+    }
+  
+    .button-row {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 3%;
+    }
+  
+    .button-container {
+      padding: 20%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+  
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2%;
+      text-align: center;
+      background-color: #D9D9D9;
+      border: 0;
+      padding-top:6%;
+      padding-bottom: 6%;
+      padding-left: 8%;
+      padding-right: 8%;
+      font-size: 170%;
+    }
+    button:hover {
+      background-color: #a9a8a8;
+      cursor: pointer;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+  
+    .sub-heading {
+      text-align: center;
+      font-size: 250%;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      padding-left: 0px;
+      margin: auto;
+    }
+  
+    .people-8 {
+      margin: 0 auto;
+    }
+  
+    .mentors-row {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    @media screen and (max-width: 768px) {
+      button {
+          font-size: 100%;
+          padding: 15% 17% 15% 17%;
+          align-items: center;
+          text-align: center;
+      }
+      h1{
+        left:0;
+        padding-left: 5%;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .team-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      body {
+        overflow-x: hidden;
+      }
+      .people-8 {
+        padding-left: 10%;
+      }
+      .mentors-row {
+        padding: 0;
+      }
+    }
+    
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .team-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      body {
+        overflow-x: hidden;
+      }
+      .people-8 {
+        padding-left: 10%;
+      }
+      .mentors-row {
+        padding: 0;
+      }
+    }
