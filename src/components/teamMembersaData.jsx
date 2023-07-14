@@ -1,243 +1,373 @@
 const teamMembers = [
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name',
-      role: 'role',
-      link: 'https://example.com/johndoe',
-      year: 2023,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Member_name_2',
-      role: 'role',
-      link: 'https://example.com/janesmith',
-      year: 2022,
-    },
-    {
-      image: 'ihttps://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Mark Johnson',
-      role: 'Project Manager',
-      link: 'https://example.com/markjohnson',
-      year: 2021,
-    },
-    {
-      image: 'ihttps://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
-      name: 'Emily Davis',
-      role: 'role',
-      link: 'https://example.com/emilydavis',
-      year: 2020,
-    },
-  ];
-  
-  export default teamMembers;
-  
+  { 
+    name: 'Sripaad Mahankali',
+    role: 'Mentor',
+    team: 'Mentors',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Vismay Chand',
+    role: 'Mentor',
+    team: 'Mentors',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Vyshnav K',
+    role: 'Mentor',
+    team: 'Mentors',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Piyush Kumar Sinha',
+    role: 'HQ',
+    team: 'HQ',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Akhilesh M',
+    role: 'HQ',
+    team: 'HQ',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Ravish Desh Anand',
+    role: 'HQ',
+    team: 'HQ',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Jana Balaji',
+    role: 'HQ',
+    team: 'HQ',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Pavan Kalyan',
+    role: 'Team Lead',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'J Narendra',
+    role: 'Design Engineer',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Suma Asritha Kasetty',
+    role: 'Design Engineer',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Sreevasths',
+    role: 'Design Engineer',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Pravin P A',
+    role: 'Intern',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Venkatesh S R',
+    role: 'Intern',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Girimanikandan',
+    role: 'Intern',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Hariram Selva',
+    role: 'Intern',
+    team: 'Team Roll Cage',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Anjan Mahapatra',
+    role: 'Team Lead',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'G K Aniruddh',
+    role: 'Design Engineer',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'S Sundar Subramanian',
+    role: 'Design Engineer',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Jayaseelan',
+    role: 'Intern',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Narendran V',
+    role: 'Intern',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Venithra S',
+    role: 'Intern',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Snekan S',
+    role: 'Intern',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'R Venkateswar',
+    role: 'Intern',
+    team: 'Team Suspension',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'M Bharanidharan',
+    role: 'Team Lead',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Kabilan S',
+    role: 'Design Engineer',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Manasa H T',
+    role: 'Design Engineer',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Vinay Anantharaman',
+    role: 'Intern',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Harish N',
+    role: 'Intern',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Nikil Narayana M',
+    role: 'Intern',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Shiva Kant Pandey',
+    role: 'Intern',
+    team: 'Team Powertrain',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Ravish Desh Anand',
+    role: 'Team Lead',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Jhansi Rajeswari Athota',
+    role: 'Design Engineer',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Sasi Vadan',
+    role: 'Intern',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Aditya K B',
+    role: 'Intern',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'A K Lekha',
+    role: 'Intern',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Rohan J S',
+    role: 'Intern',
+    team: 'Team DAQ & Electronics',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Manoji M R',
+    role: 'Team Lead',
+    team: 'Team Brakes',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Keerthana Sri G',
+    role: 'Design Engineer',
+    team: 'Team Brakes',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'K Iyappan Muthukumar',
+    role: 'Intern',
+    team: 'Team Brakes',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Harsha S',
+    role: 'Intern',
+    team: 'Team Brakes',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'KeshavPrasad K',
+    role: 'Intern',
+    team: 'Team Brakes',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Anurag Gupta',
+    role: 'Team Lead',
+    team: 'Team Steering',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Sakshi Mishra',
+    role: 'Design Engineer',
+    team: 'Team Steering',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'J K Dhanush',
+    role: 'Intern',
+    team: 'Team Steering',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Irfan S',
+    role: 'Intern',
+    team: 'Team Steering',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  },
+  { 
+    name: 'Karmuhilan',
+    role: 'Intern',
+    team: 'Team Steering',
+    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    linkedin: 'www.google.com',
+    year: 2023
+  }
+];
+
+
+export default teamMembers;
