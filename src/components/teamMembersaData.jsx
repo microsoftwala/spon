@@ -14,6 +14,11 @@ import Ravish from "../assets/Ravish.jpeg"
 import Sripaad from "../assets/Sripaad.jpeg"
 import Vismay from "../assets/Vismay.jpeg"
 import Vyshnav from "../assets/Vyshnav.jpeg"
+import Harish from "../assets/Harish.jpeg"
+import Manasa from "../assets/Manasa.jpeg"
+import Nikhil from "../assets/Nikhil.jpeg"
+import Shiva from "..assets/Shiva.jpeg"
+import Vijay from "../assets/Vijay.jpeg"
 
 
 const teamMembers = [
@@ -221,7 +226,7 @@ const teamMembers = [
     name: 'Manasa H T',
     role: 'Design Engineer',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image:Manasa,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -229,7 +234,7 @@ const teamMembers = [
     name: 'Vinay Anantharaman',
     role: 'Intern',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Vijay,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -237,7 +242,7 @@ const teamMembers = [
     name: 'Harish N',
     role: 'Intern',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Harish,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -245,7 +250,7 @@ const teamMembers = [
     name: 'Nikil Narayana M',
     role: 'Intern',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Nikhil,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -253,7 +258,7 @@ const teamMembers = [
     name: 'Shiva Kant Pandey',
     role: 'Intern',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Shiva,
     linkedin: 'www.google.com',
     year: 2023
   },
