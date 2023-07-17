@@ -17,8 +17,13 @@ import Vyshnav from "../assets/Vyshnav.jpeg"
 import Harish from "../assets/Harish.jpeg"
 import Manasa from "../assets/Manasa.jpeg"
 import Nikhil from "../assets/Nikhil.jpeg"
-import Shiva from "..assets/Shiva.jpeg"
+import Shiva from "../assets/Shiva.jpeg"
 import Vijay from "../assets/Vijay.jpeg"
+import Girim from "../assets/Girim.jpeg"
+import Hariram from "../assets/Hariram.jpeg"
+import Pravin from "../assets/Pravin.jpeg"
+import Suma from "../assets/Suma.jpeg"
+import Sreevasth from "../assets/Sreevasth.jpeg"
 
 
 const teamMembers = [
@@ -98,7 +103,7 @@ const teamMembers = [
     name: 'Suma Asritha Kasetty',
     role: 'Design Engineer',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Suma,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -106,7 +111,7 @@ const teamMembers = [
     name: 'Sreevasths',
     role: 'Design Engineer',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Sreevasth,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -114,7 +119,7 @@ const teamMembers = [
     name: 'Pravin P A',
     role: 'Intern',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Pravin,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -130,7 +135,7 @@ const teamMembers = [
     name: 'Girimanikandan',
     role: 'Intern',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Girim,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -138,7 +143,7 @@ const teamMembers = [
     name: 'Hariram Selva',
     role: 'Intern',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Hariram,
     linkedin: 'www.google.com',
     year: 2023
   },
