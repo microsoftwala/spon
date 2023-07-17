@@ -328,7 +328,7 @@ const teamMembers = [
     name: 'KeshavPrasad K',
     role: 'Intern',
     team: 'Team Brakes',
-    image:  Kesavprasad
+    image:  Kesavprasad,
     linkedin: 'www.google.com',
     year: 2023
   },
