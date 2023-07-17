@@ -28,7 +28,7 @@ import Sakshi from "../assets/Sakshi.jpeg"
 import Anurag from "../assets/Anurag.jpeg"
 import Irfan from "../assets/Irfan.jpeg"
 import JK from "../assets/JK.jpeg"
-import Karim from "../assets/karim.jpeg"
+import Karim from "../assets/Karim.jpeg"
 
 
 
