@@ -29,6 +29,14 @@ import Anurag from "../assets/Anurag.jpeg"
 import Irfan from "../assets/Irfan.jpeg"
 import JK from "../assets/JK.jpeg"
 import Karim from "../assets/Karim.jpeg"
+import Veni from "../assets/Veni.jpeg"
+import Sundar from "../assets/Sundar.jpeg"
+import Snekan from "../assets/Snekan.jpeg"
+import RV from "../assets/RV.jpeg"
+import Narendran from "../assets/Narendran.jpeg"
+import Anirudh from "../assets/Anirudh.jpeg"
+import Jayaseelan from "../assets/Jayaseelan.jpeg"
+
 
 
 
@@ -165,7 +173,7 @@ const teamMembers = [
     name: 'G K Aniruddh',
     role: 'Design Engineer',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Anirudh,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -173,7 +181,7 @@ const teamMembers = [
     name: 'S Sundar Subramanian',
     role: 'Design Engineer',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Sundar,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -181,7 +189,7 @@ const teamMembers = [
     name: 'Jayaseelan',
     role: 'Intern',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Jayaseelan,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -189,7 +197,7 @@ const teamMembers = [
     name: 'Narendran V',
     role: 'Intern',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Narendran,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -197,7 +205,7 @@ const teamMembers = [
     name: 'Venithra S',
     role: 'Intern',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Veni,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -205,7 +213,7 @@ const teamMembers = [
     name: 'Snekan S',
     role: 'Intern',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Snekan,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -213,7 +221,7 @@ const teamMembers = [
     name: 'R Venkateswar',
     role: 'Intern',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: RV,
     linkedin: 'www.google.com',
     year: 2023
   },
