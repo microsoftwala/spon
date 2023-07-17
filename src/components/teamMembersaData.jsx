@@ -1,7 +1,7 @@
 import Keerthana from "../assets/Keerthana.jpeg"
 import Kesavprasad from "../assets/Kesavprasad.jpeg"
 import Harsha from "../assets/harsha_s_brakes.jpeg"
-import Mutukumar from "../assets/MutuKumar.jpeg"
+import Mutukumar from "../assets/Mutukumar.jpeg"
 
 const teamMembers = [
   { 
