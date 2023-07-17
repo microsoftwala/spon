@@ -24,6 +24,12 @@ import Hariram from "../assets/Hariram.jpeg"
 import Pravin from "../assets/Pravin.jpeg"
 import Suma from "../assets/Suma.jpeg"
 import Sreevasth from "../assets/Sreevasth.jpeg"
+import Sakshi from "../assets/Sakshi.jpeg"
+import Anurag from "../assets/Anurag.jpeg"
+import Irfan from "../assets/Irfan.jpeg"
+import JK from "../assets/JK.jpeg"
+import Karim from "../assets/karim.jpeg"
+
 
 
 const teamMembers = [
@@ -359,7 +365,7 @@ const teamMembers = [
     name: 'Anurag Gupta',
     role: 'Team Lead',
     team: 'Team Steering',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Anurag,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -367,7 +373,7 @@ const teamMembers = [
     name: 'Sakshi Mishra',
     role: 'Design Engineer',
     team: 'Team Steering',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Sakshi,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -375,7 +381,7 @@ const teamMembers = [
     name: 'J K Dhanush',
     role: 'Intern',
     team: 'Team Steering',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: JK,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -391,7 +397,7 @@ const teamMembers = [
     name: 'Karmuhilan',
     role: 'Intern',
     team: 'Team Steering',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Karim,
     linkedin: 'www.google.com',
     year: 2023
   }
