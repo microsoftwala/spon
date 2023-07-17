@@ -7,6 +7,10 @@ import Atola from "../assets/Atola.jpeg"
 import Sasi from "../assets/Sasi.jpeg"
 import Rohan from "../assets/Rohan.jpeg"
 import Aditya from "../assets/Aditya.jpeg"
+import Akilesh from "../assets/Akilesh.jpeg"
+import Piyush from "../assets/Piyush.jpeg"
+import Balaji from "../assets/Balaji.jpeg"
+import Ravish from "../assets/Ravish.jpeg"
 
 const teamMembers = [
   { 
@@ -37,7 +41,7 @@ const teamMembers = [
     name: 'Piyush Kumar Sinha',
     role: 'Team Captain',
     team: 'HQ',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Piyush,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -45,7 +49,7 @@ const teamMembers = [
     name: 'Akhilesh M',
     role: 'Team Vice Captain',
     team: 'HQ',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Akilesh,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -53,7 +57,7 @@ const teamMembers = [
     name: 'Ravish Desh Anand',
     role: 'Team Manager',
     team: 'HQ',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image:Ravish,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -61,7 +65,7 @@ const teamMembers = [
     name: 'Jana Balaji',
     role: 'Team Joint Manager',
     team: 'HQ',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image:Balaji,
     linkedin: 'www.google.com',
     year: 2023
   },
