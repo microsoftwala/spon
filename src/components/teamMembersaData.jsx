@@ -2,6 +2,11 @@ import Keerthana from "../assets/Keerthana.jpeg"
 import Kesavprasad from "../assets/Kesavprasad.jpeg"
 import Harsha from "../assets/harsha_s_brakes.jpeg"
 import Mutukumar from "../assets/Mutukumar.jpeg"
+import Lekha from "../assets/Lekha.jpeg"
+import Atola from "../assets/Atola.jpeg"
+import Sasi from "../assets/Sasi.jpeg"
+import Rohan from "../assets/Rohan.jpeg"
+import Aditya from "../assets/Aditya.jpeg"
 
 const teamMembers = [
   { 
@@ -256,7 +261,7 @@ const teamMembers = [
     name: 'Jhansi Rajeswari Athota',
     role: 'Design Engineer',
     team: 'Team DAQ & Electronics',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Atola,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -264,7 +269,7 @@ const teamMembers = [
     name: 'Sasi Vadan',
     role: 'Intern',
     team: 'Team DAQ & Electronics',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Sasi,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -272,7 +277,7 @@ const teamMembers = [
     name: 'Aditya K B',
     role: 'Intern',
     team: 'Team DAQ & Electronics',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Aditya,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -280,7 +285,7 @@ const teamMembers = [
     name: 'A K Lekha',
     role: 'Intern',
     team: 'Team DAQ & Electronics',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Lekha,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -288,7 +293,7 @@ const teamMembers = [
     name: 'Rohan J S',
     role: 'Intern',
     team: 'Team DAQ & Electronics',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Rohan,
     linkedin: 'www.google.com',
     year: 2023
   },
