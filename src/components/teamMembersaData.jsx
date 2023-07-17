@@ -36,7 +36,11 @@ import RV from "../assets/RV.jpeg"
 import Narendran from "../assets/Narendran.jpeg"
 import Anirudh from "../assets/Anirudh.jpeg"
 import Jayaseelan from "../assets/Jayaseelan.jpeg"
-
+import Narendra from "../assets/Narendra.jpeg"
+import Manoji from "../assets/Manoji.jpeg"
+import Bharan from "../assets/Bharan.jpeg"
+import Pavan from "../assets/Pavan.jpeg"
+import Anjan from "../assets/Anjan.jpeg"
 
 
 
@@ -101,7 +105,7 @@ const teamMembers = [
     name: 'Pavan Kalyan',
     role: 'Team Lead',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Pavan,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -109,7 +113,7 @@ const teamMembers = [
     name: 'J Narendra',
     role: 'Design Engineer',
     team: 'Team Roll Cage',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Narendra,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -165,7 +169,7 @@ const teamMembers = [
     name: 'Anjan Mahapatra',
     role: 'Team Lead',
     team: 'Team Suspension',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Anjan,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -229,7 +233,7 @@ const teamMembers = [
     name: 'M Bharanidharan',
     role: 'Team Lead',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Bharan,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -333,7 +337,7 @@ const teamMembers = [
     name: 'Manoji M R',
     role: 'Team Lead',
     team: 'Team Brakes',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Manoji,
     linkedin: 'www.google.com',
     year: 2023
   },
