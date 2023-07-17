@@ -1,4 +1,8 @@
 import Keerthana from "../assets/Keerthana.jpeg"
+import Kesavprasad from "../assets/Kesavprasad.jpeg"
+import Harsha from "../assets/harsha_s_brakes.jpeg"
+import Mutukumar from "../assets/MutuKumar.jpeg"
+
 const teamMembers = [
   { 
     name: 'Sripaad Mahankali',
@@ -300,7 +304,7 @@ const teamMembers = [
     name: 'Keerthana Sri G',
     role: 'Design Engineer',
     team: 'Team Brakes',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Keerthana,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -308,7 +312,7 @@ const teamMembers = [
     name: 'K Iyappan Muthukumar',
     role: 'Intern',
     team: 'Team Brakes',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: = Mutukumar,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -316,7 +320,7 @@ const teamMembers = [
     name: 'Harsha S',
     role: 'Intern',
     team: 'Team Brakes',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Harsha,
     linkedin: 'www.google.com',
     year: 2023
   },
@@ -324,7 +328,7 @@ const teamMembers = [
     name: 'KeshavPrasad K',
     role: 'Intern',
     team: 'Team Brakes',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image:  Kesavprasad
     linkedin: 'www.google.com',
     year: 2023
   },
