@@ -312,7 +312,7 @@ const teamMembers = [
     name: 'K Iyappan Muthukumar',
     role: 'Intern',
     team: 'Team Brakes',
-    image: = Mutukumar,
+    image: Mutukumar,
     linkedin: 'www.google.com',
     year: 2023
   },
