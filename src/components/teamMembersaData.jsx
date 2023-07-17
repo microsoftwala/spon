@@ -389,7 +389,7 @@ const teamMembers = [
     name: 'Irfan S',
     role: 'Intern',
     team: 'Team Steering',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Irfan,
     linkedin: 'www.google.com',
     year: 2023
   },
