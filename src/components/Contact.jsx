@@ -17,32 +17,30 @@ function Contact() {
         <div className="contact-section">
         <Typography
           sx={{
-            font: "enter",
             fontSize: "40px",
             fontWeight: "400",
             height: "100%",
             width: {xs:"100%",sm:"100%",md:"90%"},
             display: "flex",
-            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
-            ml: {xs:"0px",sm:"0px",md:"10%"},
+            justifyContent: {md:'flex-start',xs:"center",sm:"flex-start"},
+            ml: {xs:"0px",sm:"10%",md:"10%"},
             mt:"30px"
           }}
         >
           Contact Us
         </Typography>
-          <Typography sx={{ fontSize:"20px",mb:"50px",display:"flex",justifyContent:"flex-start",ml:"10%" }}>Please fill out the form below to get in touch with us:</Typography>
+          <Typography sx={{ fontSize:"20px",mb:"50px",display:"flex",justifyContent:"flex-start",ml:{xs:"auto",sm:"10%",md:"10%"} }}>Please fill out the form below to get in touch with us:</Typography>
           <div className='formss'>
           <form>
             <div>
-              {/* <label htmlFor="name">Name:</label> */}
               <input type="text" placeholder="Name" id="name" name="name" />
             </div>
+
             <div>
-              {/* <label htmlFor="email">Email ID:</label> */}
               <input type="email"placeholder="Email" id="email" name="email" />
             </div>
-            <div>
-              {/* <label htmlFor="mobile">Mobile Number:</label> */}
+
+            <div>  
               <input type="tel"  placeholder="Mobile" id="mobile" name="mobile" />
             </div>
             <div>
@@ -69,30 +67,49 @@ function Contact() {
         >
           Important Contact
         </Typography>
-          <div className="row">
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Contact</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Contact</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Contact</span>
-          
-        </div>
         <div className="row">
-        <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 1</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 1</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 1</span>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Contact</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Contact</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Contact</span>
+          </div>
         </div>
+
         <div className="row">
-        <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 2</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 2</span>
-          <img src={computerImage} alt='roundimage'/>
-          <span className='label'>Link 2</span>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link1</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link1</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link1</span>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link2</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link2</span>
+          </div>
+          <div className='label'>
+              <img src={computerImage} alt='roundimage'/>
+              <span className='label'>Link2</span>
+          </div>
         </div>
           
 
@@ -116,7 +133,7 @@ function Contact() {
             display:"flex",
             justifyContent:"center",
             height:"270px",
-            mt:"50px",
+            mt:"25px",
             mb:"100px",
             alignItems:"center"
           }}>
