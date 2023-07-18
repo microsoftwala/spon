@@ -1,0 +1,10 @@
+img:hover{
+    transform: scale(1.5);
+    cursor: zoom-out;
+    transition: transform 0.7s ease;
+    -webkit-filter: blur(1px); 
+    filter: brightness(45px);
+    border-radius: 10px;
+    filter:contrast(25px);
+}
+
