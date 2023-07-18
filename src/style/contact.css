@@ -4,7 +4,7 @@
   }
   
   .contact-section {
-    padding-left: 5rem;
+    padding-left:0px;
   }
   
   .formss {
@@ -33,21 +33,19 @@
   
   .formss button {
     padding: 10px 20px;
-    width: 110%;
+    width: 100%;
     border: 2px solid;
     font-size: large;
   }
   
   .importantcontacts {
-    padding-left: 5rem;
+    margin: auto;
   }
   
   .row {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     padding-bottom: 2%;
-    padding-right: 5%;
   }
   
   .location {
@@ -68,10 +66,9 @@
   }
   
   .label {
-    margin-left: 0.5rem;
-    padding-right: 3rem;
-    font-size: large;
-    width: 60px;
+    display: flex;
+    margin: auto;
+
   }
   
 
