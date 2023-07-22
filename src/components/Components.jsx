@@ -52,7 +52,7 @@ export default function Components(){
                         </p>
                     </div>
                     <div className="col-span-3 md:col-span-1 grid">
-                        <img className="object-cover self-center w-[100%] h-[100%]" src={`${imageResolver(index)}`} alt="component"/>
+                        <img style={{ height:"100%" ,width:"100%"}} src={`${imageResolver(index)}`} alt="component"/>
                     </div>
                 </div>
             </div>
