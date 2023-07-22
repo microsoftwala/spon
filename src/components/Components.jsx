@@ -1,5 +1,9 @@
 import { useState } from "react"
 import Web from "../assets/web-application-testing.png"
+import Suspension from "../assets/Suspension.jpg"
+import Powertrain from "../assets/Powertrain.png"
+import Rollcage from "../assets/RollCage.png"
+
 
 export default function Components(){
 
@@ -9,17 +13,17 @@ export default function Components(){
     function imageResolver(index){
         switch(index){
             case 0:
-                return Web
+                return Suspension
             case 1:
                 return Web;
             case 2:
-                return Web;
+                return Powertrain;
             case 3:
                 return Web;
             case 4:
                 return Web;
             case 5:
-                return Web;
+                return Rollcage;
                     
             default:
                 return Web
