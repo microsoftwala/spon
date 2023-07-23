@@ -78,13 +78,16 @@ function Sponser() {
               display: "flex",
               justifyContent: {md:'flex-start',xs:"center",sm:"center"},
               ml: {xs:"0px",sm:"0px",md:"10%"},
+              paddingTop:"30px"
             }}
           >
             Why Sponser Us
           </Typography>
 
-          <Box sx={{ width: "80%", ml: "10%", mt: "50px" }}>
-            <Box sx={{ display: "flex" }}>
+          <Box sx={{ width: "80%", ml: "10%", mt: "50px"}}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start" }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -105,7 +108,9 @@ function Sponser() {
           </Box>
 
           <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start" }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -126,7 +131,9 @@ function Sponser() {
           </Box>
 
           <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start"   }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -147,7 +154,9 @@ function Sponser() {
           </Box>
 
           <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start"   }}>
               <img
                 alt="png"
                 src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
@@ -242,16 +251,19 @@ function Sponser() {
             <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
+                flexWrap:"wrap",
                 justifyContent: "center",
               }}
             >
               <Box
                 sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
-                  justifyContent: "center",
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
+                  justifyContent: "center"
+                  
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -275,7 +287,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -297,16 +309,8 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
-              </Box>
-
-              <Box
-                sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                  ml: {xs:"2%",sm:"8%",md:"8%"},
-                }}
-              >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -330,7 +334,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -352,12 +356,14 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
+
               </Box>
+
             </Box>
-          </Box>
+            </Box>
 
-          <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-          <Box
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
+            <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -365,11 +371,12 @@ function Sponser() {
             >
               <Box
                 sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -393,7 +400,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -415,16 +422,8 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
-              </Box>
-
-              <Box
-                sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                  ml: {xs:"2%",sm:"8%",md:"8%"},
-                }}
-              >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -448,7 +447,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -470,14 +469,15 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
+
               </Box>
+
             </Box>
-          </Box>
+            </Box>
 
 
-
-          <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-          <Box
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
+            <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -485,11 +485,12 @@ function Sponser() {
             >
               <Box
                 sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -513,7 +514,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -535,16 +536,8 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
-              </Box>
-
-              <Box
-                sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                  ml: {xs:"2%",sm:"8%",md:"8%"},
-                }}
-              >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -568,7 +561,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -590,13 +583,15 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
+
               </Box>
+
             </Box>
-          </Box>
+            </Box>
 
 
-          <Box sx={{ mt: {xs:"30px",md:"71px",sm:"30px"}, width: "100%" }}>
-          <Box
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
+            <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
                 justifyContent: "center",
@@ -604,11 +599,12 @@ function Sponser() {
             >
               <Box
                 sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -632,7 +628,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -654,16 +650,8 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
-              </Box>
-
-              <Box
-                sx={{
-                  display: { xs: "flex", sm: "flex", md: "flex" },
-                  justifyContent: "center",
-                  ml: {xs:"2%",sm:"8%",md:"8%"},
-                }}
-              >
-                <Box sx={{ display: "block", mr: { xs: "0%", sm: "4.3%" } }}>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -687,7 +675,7 @@ function Sponser() {
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: {xs:"0%"},mr:{sm:"7%"}}}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
@@ -709,12 +697,14 @@ function Sponser() {
                     Sponser_name
                   </Typography>
                 </Box>
+
               </Box>
+
             </Box>
             </Box>
+          </Box>
 
-
-        </Box>
+         
 
         <Box sx={{ mt: "80px", mb: "125px" }}>
           <Typography
