@@ -24,7 +24,7 @@ function Contact() {
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"flex-start"},
             ml: {xs:"0px",sm:"10%",md:"10%"},
-            mt:"30px"
+            mt:"30px",fontWeight:"bold"
           }}
         >
           Contact Us
@@ -62,7 +62,7 @@ function Contact() {
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
             mt:"70px",
-            mb:"25px"
+            mb:"25px",fontWeight:"bold"
           }}
         >
           Important Contact
@@ -124,7 +124,7 @@ function Contact() {
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt:"30px"
+            mt:"30px",fontWeight:"bold"
           }}>Our location</Typography>
           <Box sx={{
             backgroundColor: "#D9D9D9",
