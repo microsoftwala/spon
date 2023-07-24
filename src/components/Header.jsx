@@ -26,11 +26,11 @@ export default function Header(){
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </div>
-                        <Link to="/" className="md:float-left mr-4 md:inline-block block text-center mt-40 md:mt-0 ">Home</Link>
-                        <Link to="/about" className="md:float-left mr-4 md:inline-block block text-center mt-4 md:mt-0 ">About Us</Link>
-                        <Link to="/team" className="md:float-left mr-4 md:inline-block block text-center  mt-4 md:mt-0 ">Team</Link>
-                        <Link to="/sponser" className="md:float-left mr-4 md:inline-block block text-center  mt-4 md:mt-0 ">Sponsors</Link>
-                        <Link to="/contact" className="md:float-left md:inline-block block text-center  mt-4 md:mt-0 ">Contact Us</Link>
+                        <Link to="/" className="md:float-left mr-4 md:inline-block block text-center mt-40 md:mt-0 " style={{fontWeight:"bold"}}>Home</Link>
+                        <Link to="/about" className="md:float-left mr-4 md:inline-block block text-center mt-4 md:mt-0 " style={{fontWeight:"bold"}}>About Us</Link>
+                        <Link to="/team" className="md:float-left mr-4 md:inline-block block text-center  mt-4 md:mt-0 " style={{fontWeight:"bold"}}>Team</Link>
+                        <Link to="/sponser" className="md:float-left mr-4 md:inline-block block text-center  mt-4 md:mt-0 " style={{fontWeight:"bold"}}>Sponsors</Link>
+                        <Link to="/contact" className="md:float-left md:inline-block block text-center  mt-4 md:mt-0 " style={{fontWeight:"bold"}}>Contact Us</Link>
                     </div>
                 </div>
             </div>
