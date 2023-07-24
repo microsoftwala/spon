@@ -35,7 +35,7 @@ export default function Components(){
     return(
         <>
             <div className='lg:px-[7.5rem] lg:py-[9rem] md:px-[5rem] md:py-[6rem] py-[4rem] px-[2rem]'>
-                <div className='md:text-[1.75rem] text-[1.2rem] text-left'>Our Vehicle</div>
+                <div className='md:text-[1.75rem] text-[1.2rem] text-left' style={{fontWeight:"bold"}}>Our Vehicle</div>
                 <div className="mt-8 grid grid-cols-3 md:grid-rows-1 grid-rows-2 md:grid-cols-4 md:grid-rows-0 gap-y-2 md:gap-y-0">
                     <div className="col-span-1 row-span-1">
                         <div className={`text-center md:text-[1.15rem] text-[0.8rem] lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===0 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(0)}}>Suspension</div>
