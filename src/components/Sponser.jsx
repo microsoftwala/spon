@@ -38,6 +38,7 @@ function Sponser() {
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
+            fontWeight:"bold"
           }}
         >
           Our Achievements
@@ -91,7 +92,8 @@ function Sponser() {
               display: "flex",
               justifyContent: {md:'flex-start',xs:"center",sm:"center"},
               ml: {xs:"0px",sm:"0px",md:"10%"},
-              paddingTop:"30px"
+              paddingTop:"30px",
+              fontWeight:"bold"
             }}
           >
             Why Sponser Us
@@ -254,6 +256,7 @@ function Sponser() {
               display: "flex",
               justifyContent: {md:'flex-start',xs:"center",sm:"center"},
               ml: {xs:"0px",sm:"0px",md:"10%"},
+              fontWeight:"bold"
             }}
           >
             {" "}
@@ -635,6 +638,7 @@ function Sponser() {
               display: "flex",
               justifyContent: {md:'flex-start',xs:"center",sm:"center"},
               ml: {xs:"0px",sm:"0px",md:"10%"},
+              fontWeight:"bold"
             }}
           >
             Want to Support Us
