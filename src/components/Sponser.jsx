@@ -1,10 +1,23 @@
 import React from "react";
+import "../style/gallery.css"
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import DownloadButton from "./Download";
 import { Link } from "react-router-dom";
 import Header from "./Header"
 import Footer from "./Footer"
+import Ansys from "../assets/ansys.png"
+import Blaze from "../assets/Blaze.png"
+import Download from "../assets/download.jpg"
+import C2M from "../assets/G2M.png"
+import HDFC from "../assets/HDFC.png"
+import Indian from "../assets/Indian Bank.jpg"
+import Overseas from "../assets/Indian Overseas Bank.png"
+import IIITDM from "../assets/IIITDM.png"
+import Koshi from "../assets/koshi motors.jpg"
+import Scolrian from "../assets/scolarian.png"
+import Solid from "../assets/solidworks.png"
+import TLC from "../assets/TLC Logo.png"
 
 
 function Sponser() {
@@ -247,7 +260,7 @@ function Sponser() {
             Our Past Sponsers
           </Typography>
 
-          <Box sx={{ mt: "71px", width: "100%" }}>
+          <Box sx={{ mt: "40px", width: "100%" }}>
             <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
@@ -267,10 +280,10 @@ function Sponser() {
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Ansys}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -280,44 +293,51 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
-                      mr:"15px"
+                      mr:"15px",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Ansys
                   </Typography>
                 </Box>
 
                 <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
+                <div >
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Blaze}
+                    // className="circular-image"
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
                       height: "90px",
+                      // borderRadius: "50%",
+                      
                     }}
-                  ></img></Box>
+                  ></img></div></Box>
                   <Typography
                     sx={{
                       fontSize: "18px",
-                      ml: "26px",
+                      // ml: "50px",
                       fontWeight: "400",
                       mt: "2%",
+                      fontWeight:"bold",
+                      display:"flex",
+                      justifyContent:"center"
                     }}
                   >
-                    Sponser_name
+                    Blaze
                   </Typography>
                 </Box>
                 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Download}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -328,32 +348,35 @@ function Sponser() {
                       fontWeight: "400",
                       mt: "2%",
                       mr:"15px"
+                      ,fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Accurate Rings
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Overseas}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
                   <Typography
                     sx={{
                       fontSize: "18px",
-                      ml: "26px",
+                      ml: "10px",
                       fontWeight: "400",
                       mt: "2%",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Indian <br/>
+                    Overseas Bank
                   </Typography>
                 </Box>
 
@@ -362,7 +385,7 @@ function Sponser() {
             </Box>
             </Box>
 
-            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"40px"}, width: "100%" }}>
             <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
@@ -376,14 +399,14 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={C2M}
                     style={{
-                      width: "90px",
-                      borderRadius: "50%",
+                      width: "80px",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -392,22 +415,22 @@ function Sponser() {
                       fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
-                      mt: "2%",
                       mr:"15px"
+                      ,fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    G2M
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={HDFC}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -417,20 +440,21 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    HDFC
                   </Typography>
                 </Box>
                 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"30px",paddingRight:"30px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Indian}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -440,21 +464,22 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
-                      mr:"15px"
+                      mr:"20px",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Indian Bank
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Solid}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -464,9 +489,10 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    SolidWorks
                   </Typography>
                 </Box>
 
@@ -476,7 +502,7 @@ function Sponser() {
             </Box>
 
 
-            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"40px"}, width: "100%" }}>
             <Box
               sx={{
                 display: { xs: "block", sm: "block", md: "flex" },
@@ -490,11 +516,11 @@ function Sponser() {
                   justifyContent: "center",
                 }}
               >
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={IIITDM}
                     style={{
                       width: "90px",
                       borderRadius: "50%",
@@ -507,44 +533,45 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
-                      mr:"15px"
+                      mr:"15px",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    IIITDM
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center",mt:"30px" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Scolrian}
                     style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
+                      width: "100px",
+                      height:"50px"
                     }}
                   ></img></Box>
                   <Typography
                     sx={{
                       fontSize: "18px",
-                      ml: "26px",
+                      ml: "20px",
                       fontWeight: "400",
-                      mt: "2%",
+                      mt: "3%",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Scolarian <br/>Racing
                   </Typography>
                 </Box>
                 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
                 <Box sx={{ display:"flex",justifyContent:"center" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={TLC}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
+                      // borderRadius: "50%",
                       height: "90px",
                     }}
                   ></img></Box>
@@ -554,22 +581,23 @@ function Sponser() {
                       ml: "26px",
                       fontWeight: "400",
                       mt: "2%",
-                      mr:"15px"
+                      mr:"15px",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                    Teaching <br/> Learning Centre
                   </Typography>
                 </Box>
 
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center",mt:"30px" }}>
                   <img
                     alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Koshi}
                     style={{
                       width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
+                      // borderRadius: "50%",
+                      // height: "90px",
                     }}
                   ></img></Box>
                   <Typography
@@ -577,10 +605,11 @@ function Sponser() {
                       fontSize: "18px",
                       ml: "26px",
                       fontWeight: "400",
-                      mt: "2%",
+                      mt: "6%",
+                      fontWeight:"bold"
                     }}
                   >
-                    Sponser_name
+                   Koshi <br/>Motors
                   </Typography>
                 </Box>
 
@@ -590,118 +619,7 @@ function Sponser() {
             </Box>
 
 
-            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"71px"}, width: "100%" }}>
-            <Box
-              sx={{
-                display: { xs: "block", sm: "block", md: "flex" },
-                justifyContent: "center",
-              }}
-            >
-              <Box
-                sx={{
-                display: "grid",
-                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
-                  justifyContent: "center",
-                }}
-              >
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img></Box>
-                  <Typography
-                    sx={{
-                      fontSize: "18px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                      mr:"15px"
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img></Box>
-                  <Typography
-                    sx={{
-                      fontSize: "18px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-                
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img></Box>
-                  <Typography
-                    sx={{
-                      fontSize: "18px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                      mr:"15px"
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-
-                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
-                <Box sx={{ display:"flex",justifyContent:"center" }}>
-                  <img
-                    alt="png"
-                    src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                    style={{
-                      width: "90px",
-                      borderRadius: "50%",
-                      height: "90px",
-                    }}
-                  ></img></Box>
-                  <Typography
-                    sx={{
-                      fontSize: "18px",
-                      ml: "26px",
-                      fontWeight: "400",
-                      mt: "2%",
-                    }}
-                  >
-                    Sponser_name
-                  </Typography>
-                </Box>
-
-              </Box>
-
-            </Box>
-            </Box>
+          
           </Box>
 
          
