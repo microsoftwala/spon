@@ -22,7 +22,7 @@ export default function Swiper() {
   
     return (
       <swiper-container
-        style={{height:"80vh",width:"100%"}}
+        style={{width:"100%"}}
         slides-per-view="1"
         navigation="true"
         pagination-clickable="true" 
@@ -30,19 +30,19 @@ export default function Swiper() {
         centered-slides="true" 
         autoplay-delay="2500"
         keyboard="true"
-         autoplay-disable-on-interaction="true"
+        autoplay-disable-on-interaction="true"
       >
         <swiper-slide style={{position:"relative",backgroundColor:"#D9D9D9"}}>
         {/* <img alt="Testing" src='/web-application-testing.png' className='swiper-img'/> */}
+                <img src={Pic1} alt="RR" style={{width:"100%",height:"100%"}}/>
                 <div className='absolute bottom-0 mx-[50%] w-[20rem] translate-x-[calc(50%-20rem)] text-center mb-[6rem] mix-blend-darken'>
-                    <img src={Pic1} alt="RR" style={{width:"100%"}}/>
-                      <h4 className='md:text-lg text-sm'>WELCOME TO RACING PAGE OF IIITDM KANCHEEPURAM</h4>
+                      {/* <h4 className='md:text-lg text-sm text-black-500'>WELCOME TO RACING PAGE OF IIITDM KANCHEEPURAM</h4>
                       <h1 className='md:text-[3rem] text-[2rem]'>Rebel Racers</h1>
-                      <p>Hit the pedal, be the Rebel!</p>
+                      <p>Hit the pedal, be the Rebel!</p> */}
                 </div>
         </swiper-slide>
-        <swiper-slide style={{position:"relative"}}><img src={Pic2} alt="RR" style={{width:"100%"}}/></swiper-slide>
-        <swiper-slide style={{position:"relative"}}><img src={Pic3} alt="RR" style={{width:"100%"}}/></swiper-slide>
+        <swiper-slide style={{position:"relative"}}><img src={Pic2} alt="RR" style={{ width:"100%",height:"100%"}}/></swiper-slide>
+        <swiper-slide style={{position:"relative"}}><img src={Pic3} alt="RR" style={{ width:"100%",height:"100%"}}/></swiper-slide>
         
       </swiper-container>
     );
