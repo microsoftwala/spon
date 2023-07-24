@@ -8,7 +8,7 @@ export default function Header(){
     return (<>
         <nav className="navbar md:px-16 px-8 py-2 sticky w-[100%] z-50 top-0 bg-[#D9D9D9]">
             <div className="flex justify-between items-center">
-                <img className="md:w-20 w-12 inline-block" src={Logo} alt="Rebel Racers"/>
+                <Link to="/"><img className="md:w-20 w-12 inline-block" src={Logo} alt="Rebel Racers"/></Link>
                 <div className="inline-block">
                     <div className="md:invisible visible md:hidden static" onClick={()=>{
                         setToggleStatus((prev)=>!prev)
