@@ -1,62 +1,863 @@
-import { useState } from "react"
-import Web from "../assets/web-application-testing.png"
-import Suspension from "../assets/Suspension.jpg"
-import Powertrain from "../assets/Powertrain.png"
-import Rollcage from "../assets/RollCage.png"
+import React from "react";
+import "../style/gallery.css"
+import { Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import DownloadButton from "./Download";
+import { Link } from "react-router-dom";
+import Header from "./Header"
+import Footer from "./Footer"
+import Ansys from "../assets/ansys.png"
+import Blaze from "../assets/Blaze.png"
+import Download from "../assets/download.jpg"
+import C2M from "../assets/G2M.png"
+import HDFC from "../assets/HDFC.png"
+import Indian from "../assets/Indian Bank.jpg"
+import Overseas from "../assets/Indian Overseas Bank.png"
+import IIITDM from "../assets/IIITDM.png"
+import Koshi from "../assets/koshi motors.jpg"
+import Scolrian from "../assets/scolarian.png"
+import Solid from "../assets/solidworks.png"
+import TLC from "../assets/TLC Logo.png"
 
 
-export default function Components(){
+function Sponser() {
+  return (
+    <Box>
+      <Box><Header />
+      </Box>
 
-    const [componentData,setComponentData] = useState(["The suspension holds great significance in providing a smooth and controlled ride over diverse terrain. It consists of components such as shocks, springs, and linkages that work together to absorb impacts, maintain traction, and enhance stability. The suspension system plays a vital role in minimizing vibrations, bumps, and jolts, ensuring rider comfort and preventing fatigue during off-road adventures. By optimizing tire contact with the ground, it.", "The steering holds significance in providing precise control and maneuverability. It allows the rider to navigate through various terrains, making turns, and maintaining stability. The steering mechanism, typically consisting of handlebars, a steering column, and a linkage system, translates the rider's input into directional changes. It is crucial for maintaining balance, avoiding obstacles, and ensuring rider safety. A well-designed and responsive steering system enables the ATV to handle tight turns, rough terrain, and challenging off-road conditions with ease and confidence.","The powertrain holds immense significance as the heart of its performance. Comprising the engine, transmission, and drivetrain components, the powertrain delivers power and torque to propel the ATV across various terrains. It determines the vehicle's acceleration, top speed, and towing capacity, directly impacting its off-road capabilities. The efficiency and reliability of the powertrain are vital for a smooth and powerful ride, enabling the ATV to conquer challenging terrains while ensuring optimal performance and durability in demanding conditions.","The brakes play a vital role in ensuring rider safety and control. As a key component of the vehicle's overall braking system, they provide the means to slow down, stop, and maintain control during off-road adventures. The braking system typically includes disc brakes or drum brakes, along with brake levers or pedals. Efficient and responsive brakes allow the rider to modulate speed, navigate steep descents, and negotiate obstacles with confidence. They are critical in preventing accidents, ensuring rider safety, and enhancing the overall handling and control of the ATV.","The DAQ (Data Acquisition) and electronics system plays a crucial role in enhancing performance, monitoring vital information, and improving rider experience. This system encompasses various electronic components, sensors, and data acquisition devices that gather and process data from the vehicle's engine, suspension, brakes, and other vital systems. It enables real-time monitoring of crucial parameters such as speed, RPM, temperature, and fuel level, providing valuable insights for performance optimization, diagnostics, and safety. The DAQ and electronics system contributes to overall vehicle efficiency, reliability, and facilitates advanced features like electronic fuel injection, traction control, and customizable settings, enhancing the ATV's capabilities and user experience.","The roll cage holds significant importance as a critical safety feature. Designed to protect riders in case of rollovers or collisions, the roll cage acts as a sturdy framework surrounding the vehicle's occupants. By providing structural integrity and impact resistance, it helps prevent injuries and safeguards the rider from potential hazards. The roll cage absorbs and distributes the forces generated during accidents, reducing the risk of severe injuries and ensuring a higher level of safety during off-road adventures."]);
+      <Box>
+        <Typography
+          sx={{
+            mt:"30px",
+            font: "enter",
+            fontSize: "40px",
+            fontWeight: "400",
+            height: "100%",
+            width: {xs:"100%",sm:"100%",md:"90%"},
+            display: "flex",
+            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+            ml: {xs:"0px",sm:"0px",md:"10%"},
+          }}
+        >
+          Our Achievements
+        </Typography>
 
-    const [index,setIndex] = useState(0);
-    function imageResolver(index){
-        switch(index){
-            case 0:
-                return Suspension
-            case 1:
-                return Web;
-            case 2:
-                return Powertrain;
-            case 3:
-                return Web;
-            case 4:
-                return Web;
-            case 5:
-                return Rollcage;
-                    
-            default:
-                return Web
-        }
-    }
+        <Box
+          sx={{
+            width: "87%",
+            display: { xs: "block", sm: "block", md: "flex" },
+            justifyContent: "space-around",
+            mt: "30px",
+            ml: "7%",
+            mr: "6%",
+          }}
+        >
+          <Typography
+            sx={{
+              pr: "5%",
+              fontSize: "16px",
+              fontWeight: "400",
+              width: "100%",
+              height: "100%",mb:"5%"
+            }}
+          >
+            We achieved an All India Rank of 43 among 116 teams that participated in the SAEINDIA mBaja 2023 and secured 8th position among the Tamil Nadu Colleges that participated. We are placed 3rd among the Centrally Funded Technical Institutes (CFTIs).We hope that our achievements in this competition will inspire other students to participate in such competitions and strive towards excellence.
+          </Typography>
+
+          <img
+            alt="png"
+            src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            style={{ margin: "auto", width: "100%", borderRadius: "5px",height:"300px" }}
+          ></img>
+        </Box>
+
+        <Box
+          sx={{
+            mt: "125px",
+            width: "100%",
+            height: "100%",
+            backgroundColor: "#D9D9D9",
+            paddingBottom: "100px",
+          }}
+        >
+          <Typography
+            sx={{
+              font: "enter",
+              fontSize: "40px",
+              fontWeight: "400",
+              height: "100%",
+              width: {xs:"100%",sm:"100%",md:"90%"},
+              display: "flex",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
+              paddingTop:"30px"
+            }}
+          >
+            Why Sponser Us
+          </Typography>
+
+          <Box sx={{ width: "80%", ml: "10%", mt: "50px"}}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start" }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img>
+              <Typography
+                sx={{
+                  fontSize: "17px",
+                  ml: "26px",
+                  fontWeight: "400",
+                  mt: "2%",
+                }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.{" "}
+              </Typography>
+            </Box>
+          </Box>
+
+          <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start" }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img>
+              <Typography
+                sx={{
+                  fontSize: "17px",
+                  ml: "26px",
+                  fontWeight: "400",
+                  mt: "2%",
+                }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.{" "}
+              </Typography>
+            </Box>
+          </Box>
+
+          <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start"   }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "100%", height: "123px" }}
+              ></img>
+              <Typography
+                sx={{
+                  fontSize: "17px",
+                  ml: "26px",
+                  fontWeight: "400",
+                  mt: "2%",
+                }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.{" "}
+              </Typography>
+            </Box>
+          </Box>
+
+          <Box sx={{ width: "80%", ml: "10%", mt: "81px" }}>
+            <Box sx={{ display: {xs:"grid",sm:"flex",md:"flex"},
+        gridTemplateColumns: "repeat(2, 1fr)",
+        justifyContent: "flex-start"   }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img>
+              <Typography
+                sx={{
+                  fontSize: "17px",
+                  ml: "26px",
+                  fontWeight: "400",
+                  mt: "2%",
+                }}
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.{" "}
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+
+        <Box sx={{ mt: "75px", width: "80%", ml: "10%" }}>
+          <Box
+            sx={{
+              display: { xs: "block", sm: "flex", md: "flex" },
+              justifyContent: "space-evenly",
+            }}
+          >
+            <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img>
+              </Box>
+              <DownloadButton
+                url="https://example.com/myfile.pdf"
+                filename="myfile.pdf"
+                name="Sponsership Brochure Download "
+              />
+            </Box>
+
+            <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img></Box>
+              <DownloadButton
+                url="https://example.com/myfile.pdf"
+                filename="myfile.pdf"
+                name="Collaborate Download"
+              />
+            </Box>
+
+            <Box sx={{ display: "block" }}>
+            <Box sx={{ display:"flex",justifyContent:"center" }}>
+              <img
+                alt="png"
+                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                style={{ width: "123px", borderRadius: "50%", height: "123px" }}
+              ></img>
+              </Box>
+              <DownloadButton
+                url="https://example.com/myfile.pdf"
+                filename="myfile.pdf"
+                name="Crowd Funding Download"
+              />
+            </Box>
+          </Box>
+        </Box>
+
+        <Box sx={{ mt: "100px", width: "90%", ml: "5%" }}>
+          <Typography
+            sx={{
+              font: "enter",
+              fontSize: "40px",
+              fontWeight: "400",
+              height: "100%",
+              width: {xs:"100%",sm:"100%",md:"90%"},
+              display: "flex",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
+            }}
+          >
+            {" "}
+            Our Past Sponsers
+          </Typography>
+
+          <Box sx={{ mt: "40px", width: "100%" }}>
+            <Box
+              sx={{
+                display: { xs: "block", sm: "block", md: "flex" },
+                flexWrap:"wrap",
+                justifyContent: "center",
+              }}
+            >
+              <Box
+                sx={{
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
+                  justifyContent: "center"
+                  
+                }}
+              >
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={Ansys}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      mr:"15px",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    Ansys
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px" }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                <div >
+                  <img
+                    alt="png"
+                    src={Blaze}
+                    // className="circular-image"
+                    style={{
+                      width: "90px",
+                      height: "90px",
+                      // borderRadius: "50%",
+                      
+                    }}
+                  ></img></div></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      // ml: "50px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      fontWeight:"bold",
+                      display:"flex",
+                      justifyContent:"center"
+                    }}
+                  >
+                    Blaze
+                  </Typography>
+                </Box>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={Download}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      mr:"15px"
+                      ,fontWeight:"bold"
+                    }}
+                  >
+                    Accurate Rings
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={Overseas}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "10px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    Indian <br/>
+                    Overseas Bank
+                  </Typography>
+                </Box>
+
+              </Box>
+
+            </Box>
+            </Box>
+
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"40px"}, width: "100%" }}>
+            <Box
+              sx={{
+                display: { xs: "block", sm: "block", md: "flex" },
+                justifyContent: "center",
+              }}
+            >
+              <Box
+                sx={{
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
+                  justifyContent: "center",
+                }}
+              >
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={C2M}
+                    style={{
+                      width: "80px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mr:"15px"
+                      ,fontWeight:"bold"
+                    }}
+                  >
+                    G2M
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={HDFC}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    HDFC
+                  </Typography>
+                </Box>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"30px",paddingRight:"30px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={Indian}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      mr:"20px",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    Indian Bank
+                  </Typography>
+                </Box>
+
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={Solid}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    SolidWorks
+                  </Typography>
+                </Box>
+
+              </Box>
+
+            </Box>
+            </Box>
 
 
- 
+            <Box sx={{  mt:{xs:"10px",sm:"10px",md:"40px"}, width: "100%" }}>
+            <Box
+              sx={{
+                display: { xs: "block", sm: "block", md: "flex" },
+                justifyContent: "center",
+              }}
+            >
+              <Box
+                sx={{
+                display: "grid",
+                gridTemplateColumns: {xs:"repeat(2, 1fr)",md:"repeat(4, 1fr)",sm:"repeat(2, 1fr)"},
+                  justifyContent: "center",
+                }}
+              >
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={IIITDM}
+                    style={{
+                      width: "90px",
+                      borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      mr:"15px",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    IIITDM
+                  </Typography>
+                </Box>
 
-    return(
-        <>
-            <div className='lg:px-[7.5rem] lg:py-[9rem] md:px-[5rem] md:py-[6rem] py-[4rem] px-[2rem]'>
-                <div className='md:text-[1.75rem] text-[1.2rem] text-left'>Our Vehicle</div>
-                <div className="mt-8 grid grid-cols-3 md:grid-rows-1 grid-rows-2 md:grid-cols-4 md:grid-rows-0 gap-y-2 md:gap-y-0">
-                    <div className="col-span-1 row-span-1">
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem] lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===0 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(0)}}>Suspension</div>
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===1 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(1)}}>Steering</div>
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===2 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(2)}}>Power Train</div>
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===3 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(3)}}>Brakes</div>
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===4 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(4)}}>DAQ & Electronics</div>
-                        <div className={`text-center md:text-[1.15rem] text-[0.8rem]  lg:py-6 lg:px-6 md:py-4 md:px-6 py-2 px-2 border-2 cursor-pointer ${index===5 ?'border-[#D9D9D9] bg-[#D9D9D9]':' border-gray-200 hover:bg-gray-200'}`} onClick={()=>{setIndex(5)}}>Roll Cage</div>
-                    </div>
-                    <div className="col-span-2 grid row-span-1">
-                        <p className="md:mx-16 mx-8  md:text-[1rem]  text-[0.85rem]  text-left">
-                        {componentData[index]}
-                        </p>
-                    </div>
-                    <div className="col-span-3 md:col-span-1 grid">
-                        <img style={{ height:"100%" ,width:"100%"}} src={`${imageResolver(index)}`} alt="component"/>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center",mt:"30px" }}>
+                  <img
+                    alt="png"
+                    src={Scolrian}
+                    style={{
+                      width: "100px",
+                      height:"50px"
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "20px",
+                      fontWeight: "400",
+                      mt: "3%",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    Scolarian <br/>Racing
+                  </Typography>
+                </Box>
+                
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center" }}>
+                  <img
+                    alt="png"
+                    src={TLC}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "2%",
+                      mr:"15px",
+                      fontWeight:"bold"
+                    }}
+                  >
+                    Teaching <br/> Learning Centre
+                  </Typography>
+                </Box>
 
+                <Box sx={{ display: "block", ml: "2%",paddingLeft:"25px",paddingRight:"25px",mt:{xs:"40px",sm:"40px",md:"0px"} }}>
+                <Box sx={{ display:"flex",justifyContent:"center",mt:"30px" }}>
+                  <img
+                    alt="png"
+                    src={Koshi}
+                    style={{
+                      width: "90px",
+                      // borderRadius: "50%",
+                      // height: "90px",
+                    }}
+                  ></img></Box>
+                  <Typography
+                    sx={{
+                      fontSize: "18px",
+                      ml: "26px",
+                      fontWeight: "400",
+                      mt: "6%",
+                      fontWeight:"bold"
+                    }}
+                  >
+                   Koshi <br/>Motors
+                  </Typography>
+                </Box>
+
+              </Box>
+
+            </Box>
+            </Box>
+
+
+          
+          </Box>
+
+         
+
+        <Box sx={{ mt: "80px", mb: "125px" }}>
+          <Typography
+            sx={{
+              font: "enter",
+              fontSize: { xs: "35px", sm: "35px", md: "40px" },
+              fontWeight: "400",
+              height: "100%",
+              width: {xs:"100%",sm:"100%",md:"90%"},
+              display: "flex",
+              justifyContent: {md:'flex-start',xs:"center",sm:"center"},
+              ml: {xs:"0px",sm:"0px",md:"10%"},
+            }}
+          >
+            Want to Support Us
+          </Typography>
+
+          <Typography
+            sx={{
+              font: "enter",
+              fontSize: "20px",
+              fontWeight: "400",
+              height: "100%",
+              width: "90%",
+              display: "flex",
+              justifyContent: "flex-start",
+              ml: "7%",
+              mt: { xs: "8%", sm: "3%" },
+              mb: "30px",
+            }}
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </Typography>
+
+          <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
+            <Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Typography
+                  sx={{
+                    fontSize: "15px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    mt: "5%",
+                  }}
+                >
+                  Contact1
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link1
+                </Link>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link2
+                </Link>
+              </Box>
+            </Box>
+
+            <Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Typography
+                  sx={{
+                    fontSize: "15px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    mt: "5%",
+                  }}
+                >
+                  Contact1
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link1
+                </Link>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link2
+                </Link>
+              </Box>
+            </Box>
+
+            <Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Typography
+                  sx={{
+                    fontSize: "15px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    mt: "5%",
+                  }}
+                >
+                  Contact1
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link1
+                </Link>
+              </Box>
+              <Box sx={{ display: "flex", mb: "10px" }}>
+                <img
+                  alt="png"
+                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
+                ></img>
+                <Link
+                  to="/"
+                  style={{
+                    fontSize: "16.5px",
+                    ml: "10px",
+                    fontWeight: "400",
+                    marginTop: "5%",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                    paddingLeft: "12px",
+                  }}
+                >
+                  Link2
+                </Link>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
+      <Box>
+      <Footer /></Box>
+    </Box>
+  );
 }
+
+export default Sponser;
