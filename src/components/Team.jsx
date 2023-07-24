@@ -39,9 +39,9 @@ const TeamGrid = () => {
       <Header />
       </div>
     <div>
-      <h1 ref={teamMembersRef}>Team Members - {selectedYear}</h1>
+      <h1 ref={teamMembersRef} style={{ fontWeight:"bold" }}>Team Members - {selectedYear}</h1>
       <div className="team-grid">
-        <h2 className='sub-heading'>Mentors</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Mentors</h2>
         <div className="team-row mentors-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Mentors')
@@ -59,7 +59,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid">
-        <h2 className='sub-heading'>HQ</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>HQ</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'HQ')
@@ -77,7 +77,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid people-8">
-        <h2 className='sub-heading'>Team Roll Cage</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team Roll Cage</h2>
         <div className="team-row ">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team Roll Cage')
@@ -95,7 +95,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid people-8">
-        <h2 className='sub-heading'>Team Suspension</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team Suspension</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team Suspension')
@@ -113,7 +113,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid">
-        <h2 className='sub-heading'>Team Powertrain</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team Powertrain</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team Powertrain')
@@ -131,7 +131,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid">
-        <h2 className='sub-heading'>Team DAQ & Electronics</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team DAQ & Electronics</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team DAQ & Electronics')
@@ -149,7 +149,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid">
-        <h2 className='sub-heading'>Team Brakes</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team Brakes</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team Brakes')
@@ -167,7 +167,7 @@ const TeamGrid = () => {
       </div>
 
       <div className="team-grid">
-        <h2 className='sub-heading'>Team Steering</h2>
+        <h2 className='sub-heading' style={{fontWeight:"bold"}}>Team Steering</h2>
         <div className="team-row">
           {getTeamMembersByYear(selectedYear)
             .filter((member) => member.team === 'Team Steering')
