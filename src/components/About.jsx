@@ -173,7 +173,7 @@ setTimeout(greet, 100);
             mt: "10%",fontWeight:"bold"
           }}
         >
-          About Competition_Name
+          About Competition Name
         </Typography>
 
         <Box
