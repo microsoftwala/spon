@@ -14,7 +14,7 @@ export default function HomePage(){
         <Typography sx={{  
             font: "enter",
             fontSize: "40px",
-            fontWeight: "400",
+            fontWeight: "bold",
             height: "100%",
             width: {xs:"100%",sm:"100%",md:"90%"},
             display: "flex",
