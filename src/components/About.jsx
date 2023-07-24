@@ -39,7 +39,7 @@ setTimeout(greet, 100);
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt:"30px"
+            mt:"30px",fontWeight:"bold"
           }}
         >
           About Page
@@ -89,7 +89,7 @@ setTimeout(greet, 100);
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt: "5%",
+            mt: "5%",fontWeight:"bold"
           }}
         >
           Our Story
@@ -170,7 +170,7 @@ setTimeout(greet, 100);
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt: "10%",
+            mt: "10%",fontWeight:"bold"
           }}
         >
           About Competition_Name
@@ -217,7 +217,7 @@ setTimeout(greet, 100);
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt: "8%",
+            mt: "8%",fontWeight:"bold"
           }}
         >
           Gallery
