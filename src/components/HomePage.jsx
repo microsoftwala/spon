@@ -2,7 +2,7 @@ import Header from "./Header"
 import Swiper from "./Swiper"
 import Footer from "./Footer"
 import Components from "./Components"
-import Mp from "../assets/homes.mp4"
+import Mp from "../assets/Home.mp4"
 import { Typography } from "@mui/material"
 
 export default function HomePage(){
