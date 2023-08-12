@@ -9,7 +9,7 @@ const TeamMember = ({ name, role, team, image, linkedin }) => (
     <img src={image} alt={name} className="member-image" />
     <p>{name}</p>
     <p className='role'>{role}</p>
-    <a href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href={linkedin} target="_blank" rel="noopener noreferrer"><b>LinkedIn</b></a>
   </div>
 );
 
