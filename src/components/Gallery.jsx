@@ -4,8 +4,16 @@ import Header from './Header';
 import Footer from './Footer';
 import { Typography } from '@mui/material';
 import "../style/gallery.css"
-
-
+import Photo1 from "../assets/1.jpg"
+import Photo2 from "../assets/2.jpg"
+import Photo3 from "../assets/3.jpg"
+import Photo4 from "../assets/4.jpg"
+import Photo5 from "../assets/5.jpg"
+import Photo6 from "../assets/6.jpg"
+import Photo7 from "../assets/7.jpg"
+import Photo8 from "../assets/8.jpg"
+import Photo9 from "../assets/9.jpg"
+import Photo10 from "../assets/10.jpg"
 
 function Gallery() {
 
@@ -50,7 +58,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1604798756392-b78585747a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Photo1}
                     style={{ width:"37%", height:"140px",
                     }}
                   ></img>
@@ -58,7 +66,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src= {Photo2}
                     style={{ width:"37%", height:"140px" }}
                   ></img>
                 </Box>
@@ -73,14 +81,14 @@ function Gallery() {
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo3}
                 style={{ width: "37%", height:"140px" }}
               ></img>
 
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo4}
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -104,7 +112,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1604798756392-b78585747a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Photo5}
                     style={{ width:"37%", height:"140px",
                     }}
                   ></img>
@@ -112,7 +120,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Photo5}
                     style={{ width:"37%", height:"140px" }}
                   ></img>
                 </Box>
@@ -127,14 +135,14 @@ function Gallery() {
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo6}
                 style={{ width: "37%", height:"140px" }}
               ></img>
 
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo7}
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -158,7 +166,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1604798756392-b78585747a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Photo8}
                     style={{ width:"37%", height:"140px",
                     }}
                   ></img>
@@ -166,7 +174,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    src={Photo9}
                     style={{ width:"37%", height:"140px" }}
                   ></img>
                 </Box>
@@ -181,7 +189,7 @@ function Gallery() {
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo10}
                 style={{ width: "37%", height:"140px" }}
               ></img>
 
