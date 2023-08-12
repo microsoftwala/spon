@@ -14,9 +14,9 @@ import Photo7 from "../assets/7.jpg.jpg"
 import Photo8 from "../assets/8.jpg.jpg"
 import Photo9 from "../assets/9.jpg.jpg"
 import Photo10 from "../assets/10.jpg.jpg"
-import Photo11 from "../assets/Group1.jpg.jpg"
+import Photo11 from "../assets/Group1.jpg.png"
 import Photo12 from "../assets/Group2.jpg.jpg"
-import Photo13 from "../assets/Group3.jpg.jpg"
+import Photo13 from "../assets/Group3.jpg.JPG"
 
 function Gallery() {
 
