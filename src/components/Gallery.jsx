@@ -14,6 +14,9 @@ import Photo7 from "../assets/7.jpg.jpg"
 import Photo8 from "../assets/8.jpg.jpg"
 import Photo9 from "../assets/9.jpg.jpg"
 import Photo10 from "../assets/10.jpg.jpg"
+import Photo11 from "../assets/Group1.jpg.jpg"
+import Photo12 from "../assets/Group2.jpg.jpg"
+import Photo13 from "../assets/Group3.jpg.jpg"
 
 function Gallery() {
 
@@ -120,7 +123,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src={Photo5}
+                    src={Photo6}
                     style={{ width:"37%", height:"140px" }}
                   ></img>
                 </Box>
@@ -135,14 +138,14 @@ function Gallery() {
               <img
                 alt="png"
                 className='img'
-                src={Photo6}
+                src={Photo7}
                 style={{ width: "37%", height:"140px" }}
               ></img>
 
               <img
                 alt="png"
                 className='img'
-                src={Photo7}
+                src={Photo8}
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -166,7 +169,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src={Photo8}
+                    src={Photo9}
                     style={{ width:"37%", height:"140px",
                     }}
                   ></img>
@@ -174,7 +177,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src={Photo9}
+                    src={Photo10}
                     style={{ width:"37%", height:"140px" }}
                   ></img>
                 </Box>
@@ -189,14 +192,14 @@ function Gallery() {
               <img
                 alt="png"
                 className='img'
-                src={Photo10}
+                src={Photo11}
                 style={{ width: "37%", height:"140px" }}
               ></img>
 
               <img
                 alt="png"
                 className='img'
-                src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={Photo12}
                 style={{ width:"37%", height:"140px" }}
               ></img>
             </Box>
@@ -219,7 +222,7 @@ function Gallery() {
                   <img
                     alt="png"
                     className='img'
-                    src="https://images.unsplash.com/photo-1604798756392-b78585747a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                    src="Photo13"
                     style={{ width:"37%", height:"140px" }}
                   ></img>
 
