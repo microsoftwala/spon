@@ -4,16 +4,16 @@ import Header from './Header';
 import Footer from './Footer';
 import { Typography } from '@mui/material';
 import "../style/gallery.css"
-import Photo1 from "../assets/1.jpg"
-import Photo2 from "../assets/2.jpg"
-import Photo3 from "../assets/3.jpg"
-import Photo4 from "../assets/4.jpg"
-import Photo5 from "../assets/5.jpg"
-import Photo6 from "../assets/6.jpg"
-import Photo7 from "../assets/7.jpg"
-import Photo8 from "../assets/8.jpg"
-import Photo9 from "../assets/9.jpg"
-import Photo10 from "../assets/10.jpg"
+import Photo1 from "../assets/1.jpg.jpg"
+import Photo2 from "../assets/2.jpg.jpg"
+import Photo3 from "../assets/3.jpg.jpg"
+import Photo4 from "../assets/4.jpg.jpg"
+import Photo5 from "../assets/5.jpg.jpg"
+import Photo6 from "../assets/6.jpg.jpg"
+import Photo7 from "../assets/7.jpg.jpg"
+import Photo8 from "../assets/8.jpg.jpg"
+import Photo9 from "../assets/9.jpg.jpg"
+import Photo10 from "../assets/10.jpg.jpg"
 
 function Gallery() {
 
