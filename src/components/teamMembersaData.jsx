@@ -16,6 +16,7 @@ import Vismay from "../assets/Vismay.jpeg"
 import Vyshnav from "../assets/Vyshnav.jpeg"
 import Harish from "../assets/Harish.jpeg"
 import Manasa from "../assets/Manasa.jpeg"
+import Kabilan from "../assets/Kabilan.jpg"
 import Nikhil from "../assets/Nikhil.jpeg"
 import Shiva from "../assets/Shiva.jpeg"
 import Vijay from "../assets/Vijay.jpeg"
@@ -241,7 +242,7 @@ const teamMembers = [
     name: 'Kabilan S',
     role: 'Design Engineer',
     team: 'Team Powertrain',
-    image: 'https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=',
+    image: Kabilan,
     linkedin: 'www.google.com',
     year: 2023
   },
