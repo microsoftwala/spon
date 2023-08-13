@@ -2,6 +2,9 @@ import React, { useEffect, useState, useRef } from 'react';
 import teamMembers from './teamMembersaData';
 import '../style/team.css';
 import Header from "./Header"
+import Box from "@mui/material/Box";
+import photo from "../assets/Group1.1.png"
+import photo1 from "../assets/Group2.1.jpg"
 import Footer from "./Footer"
 
 const TeamMember = ({ name, role, team, image, linkedin }) => (
@@ -184,12 +187,16 @@ const TeamGrid = () => {
         </div>
       </div>
 
-      <div className="button-container">
-      <div className="button-row">
-        <button onClick={() => handleYearClick(2023)}>2023</button>
-        <button onClick={() => handleYearClick(2022)}>2022</button>
-        </div>
-      </div>
+       <Box sx={{ display:"flex",flexDirection:"row",justifyContent:"space-evenly",alignItems:"center",width:{xs:"100%",sm:"95%",md:"90%"},m:"auto"}} className='button-container'>
+          <Box sx={{m:"10px",width:"100%"}}>
+          <span style={{fontFamily:"Roboto",fontSize:"25px",fontWeight:"bold"}}>2023</span>
+          <img src={photo} alt="pic2023" onClick={() => handleYearClick(2023)} style={{display:"flex",justifyContent:"center",margin:"auto",height:"175px",width:"250px",borderRadius:"10px" }}></img>
+          </Box>
+          <Box sx={{m:"10px",width:"100%"}}>
+          <span style={{fontFamily:"Roboto",fontSize:"25px",fontWeight:"bold"}}>2022</span>
+          <img  src={photo1} alt='pic2022' onClick={() => handleYearClick(2022)} style={{display:"flex",justifyContent:"center",margin:"auto",height:"175px",width:"250px",borderRadius:"10px" }}></img>
+          </Box>
+        </Box>
     </div>
       <div><Footer/></div></div>
   );
