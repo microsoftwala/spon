@@ -39,56 +39,6 @@ setTimeout(greet, 100);
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt:"30px",fontWeight:"bold"
-          }}
-        >
-          About Page
-        </Typography>
-
-        <Box
-          sx={{
-            width: "87%",
-            display: { xs: "block", sm: "block", md: "flex" },
-            justifyContent: "space-around",
-            mt: "30px",
-            ml: "7%",
-            mr: "6%",
-          }}
-        >
-          <video
-            controls
-            style={{ margin: "auto", width: isbar?"50%":"100%", borderRadius: "5px" }}
-          >
-            <source src={Mp} type="video/mp4" />
-          </video>
-
-          <Typography
-            sx={{
-              pl: { xs: "0px", sm: "0px", md: "5%" },
-              fontSize: "16px",
-              fontWeight: "400",
-              width: "100%",
-              height: "100%",
-              mt:"10px"
-            }}
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </Typography>
-        </Box>
-
-        <Typography
-          sx={{
-            font: "enter",
-            fontSize: "40px",
-            fontWeight: "400",
-            height: "100%",
-            width: {xs:"100%",sm:"100%",md:"90%"},
-            display: "flex",
-            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
-            ml: {xs:"0px",sm:"0px",md:"10%"},
             mt: "5%",fontWeight:"bold"
           }}
         >
