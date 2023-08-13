@@ -24,49 +24,14 @@ function Contact() {
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"flex-start"},
             ml: {xs:"0px",sm:"10%",md:"10%"},
-            mt:"30px",fontWeight:"bold"
-          }}
-        >
-          Contact Us
-        </Typography>
-          <Typography sx={{ fontSize:"20px",mb:"50px",display:"flex",justifyContent:"flex-start",ml:{xs:"auto",sm:"10%",md:"10%"} }}>Please fill out the form below to get in touch with us:</Typography>
-          <div className='formss'>
-          <form>
-            <div>
-              <input type="text" placeholder="Name" id="name" name="name" />
-            </div>
-
-            <div>
-              <input type="email"placeholder="Email" id="email" name="email" />
-            </div>
-
-            <div>  
-              <input type="tel"  placeholder="Mobile" id="mobile" name="mobile" />
-            </div>
-            <div>
-              <textarea id="message" placeholder="Message" name="message" rows="4" />
-            </div>
-            <button type="submit">Submit</button>
-          </form>
-          </div>
-        </div>
-        <div className='importantcontacts'>
-        <Typography
-          sx={{
-            font: "enter",
-            fontSize: "40px",
-            fontWeight: "400",
-            height: "100%",
-            width: {xs:"100%",sm:"100%",md:"90%"},
-            display: "flex",
-            justifyContent: {md:'flex-start',xs:"center",sm:"center"},
-            ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt:"70px",
-            mb:"25px",fontWeight:"bold"
+            mt:"30px",mb:"20px"
           }}
         >
           Important Contact
         </Typography>
+         
+        </div>
+        <div className='importantcontacts'>
         <div className="row">
           <div className='label'>
               <img src={computerImage} alt='roundimage'/>
@@ -124,10 +89,11 @@ function Contact() {
             display: "flex",
             justifyContent: {md:'flex-start',xs:"center",sm:"center"},
             ml: {xs:"0px",sm:"0px",md:"10%"},
-            mt:"30px",fontWeight:"bold"
+            mt:"30px"
+            ,mb:"30px"
           }}>Our location</Typography>
+
           <Box sx={{
-            backgroundColor: "#D9D9D9",
             width:{xs:"85%",sm:"75%",md:"70%"},
             margin:"auto",
             display:"flex",
@@ -137,15 +103,11 @@ function Contact() {
             mb:"100px",
             alignItems:"center"
           }}>
-          <img src= {location} alt='roundimage' style={{}}/>
+          <img src= "https://i.ytimg.com/vi/ujtUyW30P60/maxresdefault.jpg" alt='roundimage' style={{ height:"100%",width:"100%"}}/>
         </Box>
     </Box>
-        
-        
-      <Footer/>
-        
-        
-      </div>
+    <Footer/>     
+  </div>
     
   );
 }
