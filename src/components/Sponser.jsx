@@ -4,6 +4,9 @@ import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import DownloadButton from "./Download";
 import { Link } from "react-router-dom";
+import PhoneIcon from '@mui/icons-material/Phone';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Header from "./Header"
 import Footer from "./Footer"
 import Ansys from "../assets/ansys.png"
@@ -662,198 +665,74 @@ function Sponser() {
             industry.
           </Typography>
 
-          <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
-            <Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Typography
-                  sx={{
-                    fontSize: "15px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    mt: "5%",
-                  }}
-                >
-                  Contact1
-                </Typography>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link1
-                </Link>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link2
-                </Link>
-              </Box>
-            </Box>
+          <Box >
+            
+          <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}> (Team Captain) </h3>
+        <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span><PhoneIcon/>+918235092655</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <a href='https://instagram.com/trashguypiyush?igshid=MzRlODBiNWFlZA==' target="__blank"><InstagramIcon/>Piyush Kumar</a>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/piyush243kr" target='__blank'>Piyush Kumar</a>
+          </Box>
+        </Box>
 
-            <Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Typography
-                  sx={{
-                    fontSize: "15px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    mt: "5%",
-                  }}
-                >
-                  Contact1
-                </Typography>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link1
-                </Link>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link2
-                </Link>
-              </Box>
-            </Box>
+          <br></br>
+          <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}>(Team Manager)</h3>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span ><PhoneIcon/>+917671967392</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <InstagramIcon/>
+              <a href='https://instagram.com/ravishanand9?igshid=MzRlODBiNWFlZA==' target="__blank">Ravish Anand</a>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/ravish-anand-" target='__blank'>Ravish Anand</a>
+          </Box>
+        </Box>
 
-            <Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Typography
-                  sx={{
-                    fontSize: "15px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    mt: "5%",
-                  }}
-                >
-                  Contact1
-                </Typography>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link1
-                </Link>
-              </Box>
-              <Box sx={{ display: "flex", mb: "10px" }}>
-                <img
-                  alt="png"
-                  src="https://images.unsplash.com/photo-1687220294041-27d462fb2092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-                  style={{ width: "38px", borderRadius: "50%", height: "38px" }}
-                ></img>
-                <Link
-                  to="/"
-                  style={{
-                    fontSize: "16.5px",
-                    ml: "10px",
-                    fontWeight: "400",
-                    marginTop: "5%",
-                    cursor: "pointer",
-                    textDecoration: "none",
-                    color: "black",
-                    paddingLeft: "12px",
-                  }}
-                >
-                  Link2
-                </Link>
-              </Box>
-            </Box>
+          <br></br>
+          <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Vice captain)</h3>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box >
+              <span><PhoneIcon/>+917358082120</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <InstagramIcon/>
+              <a href='https://instagram.com/akhil_akhilesh2003?igshid=MzRlODBiNWFlZA==' target="__blank">M Akhilesh</a>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/akhilesh-m-6866b1248" target='__blank'>M Akhilesh</a>
+          </Box>
+        </Box>
+
+          <br></br>
+          <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Joint Manager)</h3>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span > <PhoneIcon/>+917305951230</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <InstagramIcon/>
+              <a href='https://instagram.com/jb_16_03?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D' target="__blank">Jana Balaji</a>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/jana-balaji-818b18228" target='__blank'>Jana Balaji</a>
+          </Box>
+        </Box>
+        
           </Box>
         </Box>
       </Box>
