@@ -1,5 +1,4 @@
 import React from 'react';
-import computerImage from '../assets/icon.png';
 import "../style/contact.css"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -29,74 +28,73 @@ function Contact() {
             mt:"30px",mb:"20px"
           }}
         >
-          Important Contact
+          Our Contact
         </Typography>
          <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}> (Team Captain) </h3>
-        <div className="row">
-          <div className='label'>
-              <PhoneIcon/>
-              <span className='label'>+918235092655</span>
-          </div>
-          <div className='label'>
-              <InstagramIcon/>
-              <a href='https://instagram.com/trashguypiyush?igshid=MzRlODBiNWFlZA==' target="__blank">Piyush Kumar</a>
-          </div>
-          <div className='label'>
+        <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span><PhoneIcon/>+918235092655</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
+              <a href='https://instagram.com/trashguypiyush?igshid=MzRlODBiNWFlZA==' target="__blank"><InstagramIcon/>Piyush Kumar</a>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <LinkedInIcon/>
               <a href="https://www.linkedin.com/in/piyush243kr" target='__blank'>Piyush Kumar</a>
-          </div>
-        </div>
+          </Box>
+        </Box>
 
           <br></br>
           <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}>(Team Manager)</h3>
-        <div className="row">
-          <div className='label'>
-              <PhoneIcon/>
-              <span className='label'>+917671967392</span>
-          </div>
-          <div className='label'>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span ><PhoneIcon/>+917671967392</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <InstagramIcon/>
               <a href='https://instagram.com/ravishanand9?igshid=MzRlODBiNWFlZA==' target="__blank">Ravish Anand</a>
-          </div>
-          <div className='label'>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <LinkedInIcon/>
               <a href="https://www.linkedin.com/in/ravish-anand-" target='__blank'>Ravish Anand</a>
-          </div>
-        </div>
+          </Box>
+        </Box>
 
           <br></br>
           <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Vice captain)</h3>
-        <div className="row">
-          <div className='label'>
-              <PhoneIcon/>
-              <span className='label'>+917358082120</span>
-          </div>
-          <div className='label'>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box >
+              <span><PhoneIcon/>+917358082120</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <InstagramIcon/>
               <a href='https://instagram.com/akhil_akhilesh2003?igshid=MzRlODBiNWFlZA==' target="__blank">M Akhilesh</a>
-          </div>
-          <div className='label'>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <LinkedInIcon/>
               <a href="https://www.linkedin.com/in/akhilesh-m-6866b1248" target='__blank'>M Akhilesh</a>
-          </div>
-        </div>
+          </Box>
+        </Box>
 
           <br></br>
           <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Joint Manager)</h3>
-        <div className="row">
-          <div className='label'>
-              <PhoneIcon/>
-              <span className='label'>+917305951230</span>
-          </div>
-          <div className='label'>
+          <Box  sx={{ display:{xs:"block",sm:"block",md:"flex"},
+        justifyContent:{xs:"center",sm:"center",md:"space-evenly"},m:"auto"}}>
+          <Box sx={{m:"5px"}}>
+              <span > <PhoneIcon/>+917305951230</span>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <InstagramIcon/>
               <a href='https://instagram.com/jb_16_03?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D' target="__blank">Jana Balaji</a>
-          </div>
-          <div className='label'>
+          </Box>
+          <Box sx={{m:"5px"}}>
               <LinkedInIcon/>
               <a href="https://www.linkedin.com/in/jana-balaji-818b18228" target='__blank'>Jana Balaji</a>
-          </div>
-        </div>
+          </Box>
+        </Box>
           
         
 
