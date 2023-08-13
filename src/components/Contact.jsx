@@ -3,9 +3,11 @@ import computerImage from '../assets/icon.png';
 import "../style/contact.css"
 import Header from "./Header"
 import Footer from "./Footer"
-import location from '../assets/location.png'
 import { Typography } from "@mui/material";
+import PhoneIcon from '@mui/icons-material/Phone';
 import Box from "@mui/material/Box";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Contact() {
   return (
@@ -29,54 +31,74 @@ function Contact() {
         >
           Important Contact
         </Typography>
-         
-        </div>
-        <div className='importantcontacts'>
+         <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}> (Team Captain) </h3>
         <div className="row">
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Contact</span>
+              <PhoneIcon/>
+              <span className='label'>+918235092655</span>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Contact</span>
+              <InstagramIcon/>
+              <a href='https://instagram.com/trashguypiyush?igshid=MzRlODBiNWFlZA==' target="__blank">Piyush Kumar</a>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Contact</span>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/piyush243kr" target='__blank'>Piyush Kumar</a>
           </div>
         </div>
 
+          <br></br>
+          <h3 style={{fontFamily:"Roboto", fontWeight:"bold",fontSize:"25px",marginBottom:"7px"}}>(Team Manager)</h3>
         <div className="row">
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link1</span>
+              <PhoneIcon/>
+              <span className='label'>+917671967392</span>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link1</span>
+              <InstagramIcon/>
+              <a href='https://instagram.com/ravishanand9?igshid=MzRlODBiNWFlZA==' target="__blank">Ravish Anand</a>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link1</span>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/ravish-anand-" target='__blank'>Ravish Anand</a>
           </div>
         </div>
 
+          <br></br>
+          <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Vice captain)</h3>
         <div className="row">
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link2</span>
+              <PhoneIcon/>
+              <span className='label'>+917358082120</span>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link2</span>
+              <InstagramIcon/>
+              <a href='https://instagram.com/akhil_akhilesh2003?igshid=MzRlODBiNWFlZA==' target="__blank">M Akhilesh</a>
           </div>
           <div className='label'>
-              <img src={computerImage} alt='roundimage'/>
-              <span className='label'>Link2</span>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/akhilesh-m-6866b1248" target='__blank'>M Akhilesh</a>
+          </div>
+        </div>
+
+          <br></br>
+          <h3 style={{fontFamily:"Roboto",marginBottom:"7px", fontWeight:"bold",fontSize:"25px"}}>(Team Joint Manager)</h3>
+        <div className="row">
+          <div className='label'>
+              <PhoneIcon/>
+              <span className='label'>+917305951230</span>
+          </div>
+          <div className='label'>
+              <InstagramIcon/>
+              <a href='https://instagram.com/jb_16_03?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D' target="__blank">Jana Balaji</a>
+          </div>
+          <div className='label'>
+              <LinkedInIcon/>
+              <a href="https://www.linkedin.com/in/jana-balaji-818b18228" target='__blank'>Jana Balaji</a>
           </div>
         </div>
           
+        
 
         </div>
         <Box className='location'>
@@ -106,8 +128,12 @@ function Contact() {
           <img src= "https://i.ytimg.com/vi/ujtUyW30P60/maxresdefault.jpg" alt='roundimage' style={{ height:"100%",width:"100%"}}/>
         </Box>
     </Box>
-    <Footer/>     
-  </div>
+        
+        
+      <Footer/>
+        
+        
+      </div>
     
   );
 }
