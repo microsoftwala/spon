@@ -3,7 +3,7 @@ import teamMembers from './teamMembersaData';
 import '../style/team.css';
 import Header from "./Header"
 import Box from "@mui/material/Box";
-import photo from "../assets/Group1.1.png"
+import photo from "../assets/Gallery_2.jpg"
 import photo1 from "../assets/Group2.1.jpg"
 import Footer from "./Footer"
 
