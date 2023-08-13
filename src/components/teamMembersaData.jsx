@@ -76,7 +76,7 @@ const teamMembers = [
     role: 'Team Captain',
     team: 'HQ',
     image: Piyush,
-    linkedin: 'www.google.com',
+    linkedin: 'https://www.linkedin.com/in/piyush243kr',
     year: 2023
   },
   { 
@@ -84,7 +84,7 @@ const teamMembers = [
     role: 'Team Vice Captain',
     team: 'HQ',
     image: Akilesh,
-    linkedin: 'www.google.com',
+    linkedin: 'https://www.linkedin.com/in/akhilesh-m-6866b1248',
     year: 2023
   },
   { 
@@ -92,7 +92,7 @@ const teamMembers = [
     role: 'Team Manager',
     team: 'HQ',
     image:Ravish,
-    linkedin: 'www.google.com',
+    linkedin: 'https://www.linkedin.com/in/ravish-anand-',
     year: 2023
   },
   { 
@@ -100,7 +100,7 @@ const teamMembers = [
     role: 'Team Joint Manager',
     team: 'HQ',
     image:Balaji,
-    linkedin: 'www.google.com',
+    linkedin: 'https://www.linkedin.com/in/jana-balaji-818b18228',
     year: 2023
   },
   { 
