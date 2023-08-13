@@ -4,7 +4,7 @@ import '../style/team.css';
 import Header from "./Header"
 import Box from "@mui/material/Box";
 import photo from "../assets/Gallery_2.jpg"
-import photo1 from "../assets/Group2.1.jpg"
+import photo1 from "../assets/Gallery_3.JPG"
 import Footer from "./Footer"
 
 const TeamMember = ({ name, role, team, image, linkedin }) => (
